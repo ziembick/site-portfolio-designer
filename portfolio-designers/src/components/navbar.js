@@ -3,7 +3,9 @@ import React from "react";
 function Navbar() {
    return (
     <div>
-        <h2>Hellow World</h2>
+       <nav className="nav">
+        <a className="brand"></a>
+       </nav>
     </div>
    )
 }
