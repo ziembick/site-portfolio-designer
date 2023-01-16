@@ -1,13 +1,16 @@
 import React from "react";
 
 function Navbar() {
-   return (
+  return (
     <div>
-       <nav className="nav">
-        <a className="brand"></a>
-       </nav>
+      <nav className="nav">
+        <a href="http://www.google.com" className="brand">
+          herdoy
+        </a>
+        <ul className="nav__menu"></ul>
+      </nav>
     </div>
-   )
+  );
 }
 
-export default Navbar
+export default Navbar;
