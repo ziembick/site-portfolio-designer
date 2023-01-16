@@ -17,16 +17,21 @@ li {
 
 a {
     text-decoration: none;
-    color: darkgrey;
+    color: white;
     
 }
+
+a:hover {
+    color: yellow;
+}
+
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 8vh;
-    background-color: rgb(90, 104, 228);
+    background-color: rgb(0, 0, 0);
 }
 
 .nav__brand {
@@ -58,4 +63,21 @@ a {
     .nav__toggler {
         display: block;
     }
+
+    .nav__menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        height: 93vh;
+        background: #000;
+        flex-direction: column;
+        transform: translateX(100%);
+    }
+}
+
+/* Nav active clas */
+
+.nav__active {
+    transform: translateX(0);
 }

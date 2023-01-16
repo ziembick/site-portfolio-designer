@@ -1,14 +1,17 @@
 import React from "react";
+import { useState } from "react";
 import "../navbar.css";
 
 function Navbar() {
+  const [active, setActive] = useState("nav__menu")
+
   return (
     <div>
       <nav className="nav">
         <a href="http://www.google.com" className="nav__brand">
-          herdoy
+          Silvio Lima
         </a>
-        <ul className="nav__menu">
+        <ul className={active}>
           <li className="nav__item">
             <a href="http://www.google.com" className="nav__link">
               Portfolio
