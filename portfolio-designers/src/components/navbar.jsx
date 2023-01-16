@@ -3,7 +3,12 @@ import { useState } from "react";
 import "../navbar.css";
 
 function Navbar() {
-  const [active, setActive] = useState("nav__menu")
+  const [active, setActive] = useState("nav__menu");
+  const navToggle = () => {
+    active === "nav__menu"
+      ? setActive("nav__menu nav__active")
+      : setActive("nav_menu");
+  };
 
   return (
     <div>
@@ -33,7 +38,7 @@ function Navbar() {
             </a>
           </li>
         </ul>
-        <div className="nav__toggler">
+        <div onClick={navToggle} className="nav__toggler">
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
