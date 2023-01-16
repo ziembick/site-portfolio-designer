@@ -16,27 +16,27 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">
+      <a href="http://www.google.com" className="nav__brand">
         Silvio Lima
       </a>
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="http://www.google.com" className="nav__link">
             Portfolio
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="http://www.google.com" className="nav__link">
             Sobre
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="http://www.google.com" className="nav__link">
             Serviços
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="http://www.google.com" className="nav__link">
             Contato
           </a>
         </li>
@@ -47,7 +47,7 @@ function Navbar() {
         <div className="line3"></div>
       </div>
     </nav>
-  );
+  )
 }
 
 export default Navbar;
