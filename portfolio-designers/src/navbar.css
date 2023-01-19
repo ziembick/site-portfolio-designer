@@ -51,15 +51,18 @@ a:hover {
 }
 
 .nav__logo {
-  width: 40px;
+  width: 30px;
   height: 40px;
   margin-top: 5px;
   padding-top: 5px;
 }
 
-.nav__logo:hover {
-  color: yellow;
+/* img {
+  transition: background-color 0.5s ease;
 }
+img:hover {
+  background-color: yellow;
+} */
 
 @media screen and (max-width: 768px) {
   .nav__toggler {

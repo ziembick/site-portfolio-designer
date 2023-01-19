@@ -13,3 +13,9 @@
 .section__container h1 {
   color: white;
 }
+
+.section__container-text{
+  display: flex;
+  justify-content: center;
+  padding-right: 400px;
+}
