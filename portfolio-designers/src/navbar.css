@@ -50,6 +50,17 @@ a:hover {
   transition: 0.3s ease-in;
 }
 
+.nav__logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.nav__logo:hover {
+  color: yellow;
+}
+
 @media screen and (max-width: 768px) {
   .nav__toggler {
     display: block;

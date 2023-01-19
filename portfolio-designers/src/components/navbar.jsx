@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "../img/Logo.png"
 import "../navbar.css";
 
 function Navbar() {
@@ -17,7 +18,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <a href="http://www.google.com" className="nav__brand">
-        Silvio Lima
+      <img src={Logo} alt="Silvio Logo" className="nav__logo"/>
       </a>
       <ul className={active}>
         <li className="nav__item">
