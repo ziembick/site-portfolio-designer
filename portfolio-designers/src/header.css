@@ -6,7 +6,7 @@
 }
 
 .section__container {
-  background-color: #000;
+  background-color: #0A0A0A;
   padding: 10rem;
 }
 
@@ -31,6 +31,11 @@ h1 {
   position: relative;
   left: 91rem;
  
+}
+
+.section__container-text-silvio {
+  padding-left: 265px;
+  
 }
 
 img {

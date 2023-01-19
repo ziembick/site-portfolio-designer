@@ -1,9 +1,10 @@
 import React from "react";
+import Logo from  "../img/Logo.png"
 
 function Footer() {
     return (
         <footer>
-            <p>Copyright © {new Date().getFullYear()} My Website</p>
+            <img src={Logo} alt="Silvio Lima"/>
         </footer>
     )
 }
