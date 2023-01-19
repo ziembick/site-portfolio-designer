@@ -5,8 +5,7 @@ function Header() {
   return (
     <section className="section__container">
       <h1>
-        I’m a graphic designer based in Porto Alegre who loves to create
-        holistic brand experiences. Feel free to contact me: hi@biajanoni.com
+      Designer gráfico com mais de 10 anos de experiência<br></br> trabalhando com desenvolvimento de produtos físicos e digitais.
       </h1>
     </section>
   );
