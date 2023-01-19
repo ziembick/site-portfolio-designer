@@ -10,8 +10,8 @@ function Header() {
         com desenvolvimento de produtos físicos e digitais.
       </h1>
       <li>
-        <a href="http://www.instagram.com" className="section__container-ig_logo">
-          <img src={igLogo} alt="Instagram Logo" className="" />
+        <a href="http://www.instagram.com/slviol" className="section__container-ig">
+          <img src={igLogo} alt="Instagram Logo" className="section__container-ig_logo" />
         </a>
       </li>
     </section>
