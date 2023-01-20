@@ -1,5 +1,6 @@
 import React from "react";
 import igLogo from "../img/ig.png";
+import behance from "../img/behance.png"
 import "../header.css";
 
 function Header() {
@@ -15,6 +16,7 @@ function Header() {
       <li>
         <a href="http://www.instagram.com/slviol" className="section__container-ig">
           <img src={igLogo} alt="Instagram Logo" className="section__container-ig_logo" />
+          <img src={behance} alt="Behance Logo" className="section__container-ig_logo" />
         </a>
       </li>
     </section>
