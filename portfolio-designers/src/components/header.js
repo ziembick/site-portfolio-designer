@@ -21,7 +21,7 @@ function Header() {
         <a href="https://www.behance.net/SilvioLima" className="section__container-behance">
         <img src={behance} alt="Behance Logo" className="section__container-ig_behance_logo" />
         </a>
-        <a href="https://www.behance.net/SilvioLima" className="section__container-dribble">
+        <a href="https://dribbble.com/SilvioLima" className="section__container-dribble">
         <img src={dribble} alt="Dribble Logo" className="section__container-ig_dribble_logo" />
         </a>
       </li>
