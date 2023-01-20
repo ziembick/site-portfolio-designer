@@ -37,7 +37,15 @@ h1 {
   height: 20px;
   margin-top: 10px ;
   position: relative;
-  left: 92rem;
+  left: 92.5rem;
+}
+
+.section__container-ig_dribble_logo {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px ;
+  position: relative;
+  left: 94rem;
 }
 
 .section__container-text-silvio {
