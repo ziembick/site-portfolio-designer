@@ -35,7 +35,11 @@ h1 {
 
 .section__container-text-silvio {
   padding-left: 265px;
-  
+  font-size: 40px;
+}
+
+h1:first-child {
+  color: grey;
 }
 
 img {
