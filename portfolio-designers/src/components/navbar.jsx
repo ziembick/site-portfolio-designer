@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../img/Logo.png"
-import { Link } from "react-router-dom";
 import "../navbar.css";
-import Contato from "./contato";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
