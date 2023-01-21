@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../img/Logo.png"
+import { Link } from "react-router-dom";
+import Contato from "./contato";
 import "../navbar.css";
 
 function Navbar() {
@@ -37,9 +39,9 @@ function Navbar() {
           </a>
         </li>
         <li className="nav__item">
-          <a href="http://www.google.com" className="nav__link">
+          <Link to="/contato" className="nav__link">
             Contato
-          </a>
+          </Link>
         </li>
       </ul>
       <div onClick={navToggle} className={icon}>

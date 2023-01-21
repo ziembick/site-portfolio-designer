@@ -1,17 +1,12 @@
 import Navbar from "./navbar";
 
+function Contato() {
+  return (
+    <div>
 
-function Contato () {
-    return (
-        <div>
-            <Navbar />
-            <div>
-                <h1>
-                    Teste teste teste teste
-                </h1>
-            </div>
-        </div>
-    )
+      <h1>Teste teste teste teste</h1>
+    </div>
+  );
 }
 
-export default Contato
+export default Contato;
