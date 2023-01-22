@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../img/Logo.png"
 import "../navbar.css";
 
-function Navbar() {
+function App() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
   const navToggle = () => {
@@ -51,4 +51,4 @@ function Navbar() {
   )
 }
 
-export default Navbar;
+export default App;

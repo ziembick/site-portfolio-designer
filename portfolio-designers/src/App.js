@@ -6,7 +6,7 @@ import Logo from "./img/Logo.png";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import Contato from "./components/contato";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [active, setActive] = useState("nav__menu");
