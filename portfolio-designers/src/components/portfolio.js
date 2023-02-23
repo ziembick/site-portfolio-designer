@@ -1,5 +1,6 @@
 import React from "react";
 import teste from "../img/teste.gif"
+import behance from "../img/barney.jpg"
 import "../../src/portfolio.css";
 import Navbar from "./navbar";
 
@@ -8,7 +9,7 @@ function Porftolio () {
         <>
         <Navbar />
         <div>
-            <img src={teste} alt="Teste" className="teste"/>
+            <img src={behance} alt="Teste"/>
         </div>
         </>
     )

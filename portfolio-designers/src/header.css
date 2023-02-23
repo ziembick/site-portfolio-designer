@@ -6,7 +6,7 @@
 }
 
 .section__container {
-  background-color: #0A0A0A;
+  background-color: #0a0a0a;
   padding: 10rem;
 }
 
@@ -14,7 +14,7 @@
   color: white;
 }
 
-.section__container-text{
+.section__container-text {
   display: flex;
   justify-content: center;
   padding-right: 400px;
@@ -27,25 +27,28 @@ h1 {
 .section__container-ig_logo {
   width: 20px;
   height: 20px;
-  margin-top: 10px ;
+  margin-top: 10px;
   position: relative;
   left: 91rem;
+  filter: brightness(0) invert(1);
 }
 
 .section__container-ig_behance_logo {
   width: 20px;
   height: 20px;
-  margin-top: 10px ;
+  margin-top: 10px;
   position: relative;
   left: 92.5rem;
+  filter: brightness(0) invert(1);
 }
 
 .section__container-ig_dribble_logo {
   width: 20px;
   height: 20px;
-  margin-top: 10px ;
+  margin-top: 10px;
   position: relative;
   left: 94rem;
+  filter: brightness(0) invert(1);
 }
 
 .section__container-text-silvio {
@@ -57,6 +60,6 @@ h1:first-child {
   color: grey;
 }
 
-img {
+/* img {
   filter: brightness(0) invert(1);
-}
+} */
