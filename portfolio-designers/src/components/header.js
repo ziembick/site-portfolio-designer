@@ -2,10 +2,14 @@ import React from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png"
 import dribble from "../img/dribble.png"
+import Navbar from "./navbar";
 import "../header.css";
+import Footer from "./footer";
 
 function Header() {
   return (
+    <>
+    <Navbar />
     <section className="section__container">
       <h1 className="section__container-text-silvio">
         Silvio Lima
@@ -26,6 +30,8 @@ function Header() {
         </a>
       </li>
     </section>
+    <Footer />
+    </>
   );
 }
 

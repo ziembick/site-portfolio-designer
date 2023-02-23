@@ -61,6 +61,7 @@ function App() {
           <Footer />
         </div>} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/header" element={<Header />} />
       </Routes>
   );
 }
