@@ -1,6 +1,7 @@
 import Navbar from "./navbar";
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
+import "./contato.css"
 
 function Contato() {
   const form = useRef();
