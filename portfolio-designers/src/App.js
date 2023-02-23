@@ -7,6 +7,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import Contato from "./components/contato";
 import { Route, Routes } from "react-router-dom";
+import Porftolio from "./components/portfolio";
 
 function App() {
   const [active, setActive] = useState("nav__menu");
@@ -60,6 +61,7 @@ function App() {
           <Header />
           <Footer />
         </div>} />
+        <Route path="/portfolio" element={<Porftolio />} />
         <Route path="/contato/*" element={<Contato />} />
         <Route path="/header" element={<Header />} />
       </Routes>

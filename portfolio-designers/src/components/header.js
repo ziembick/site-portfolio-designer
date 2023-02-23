@@ -2,6 +2,7 @@ import React from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png"
 import dribble from "../img/dribble.png"
+import Porftolio from "./portfolio";
 import Navbar from "./navbar";
 import "../header.css";
 import Footer from "./footer";
@@ -30,6 +31,7 @@ function Header() {
         </a>
       </li>
     </section>
+    <Porftolio />
     <Footer />
     </>
   );
