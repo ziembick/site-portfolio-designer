@@ -13,7 +13,7 @@ function Contato() {
         "service_qpwouo9",
         "template_rpenbqc",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "2fHgcjnXCEcoPxp77"
       )
       .then(
         (result) => {
