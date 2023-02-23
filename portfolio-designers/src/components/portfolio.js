@@ -1,6 +1,5 @@
 import React from "react";
-import tucacafe1 from "../img/tucacafe1.png"
-import tucafe2 from "../img/tuca-cafe-2.gif"
+import teste from "../img/teste.gif"
 import "../../src/portfolio.css";
 import Navbar from "./navbar";
 
@@ -9,7 +8,7 @@ function Porftolio () {
         <>
         <Navbar />
         <div>
-            <img src={tucafe2}/>
+            <img src={teste} alt="Teste" className="teste"/>
         </div>
         </>
     )
