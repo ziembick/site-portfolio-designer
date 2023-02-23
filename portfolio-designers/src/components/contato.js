@@ -10,8 +10,8 @@ function Contato() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_qpwouo9",
+        "template_rpenbqc",
         form.current,
         "YOUR_PUBLIC_KEY"
       )
