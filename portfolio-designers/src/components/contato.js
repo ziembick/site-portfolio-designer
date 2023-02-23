@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 
 function Contato() {
@@ -26,6 +27,7 @@ function Contato() {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
+      <Navbar />
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
