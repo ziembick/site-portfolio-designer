@@ -27,14 +27,14 @@ function App() {
       <Routes>
         <Route path="/" element={<div>
           <nav className="nav">
-            <a href="http://www.google.com" className="nav__brand">
+            <Link to="/" className="nav__brand">
               <img src={Logo} alt="Silvio Logo" className="nav__logo" />
-            </a>
+            </Link>
             <ul className={active}>
               <li className="nav__item">
-                <a href="http://www.google.com" className="nav__link">
+                <Link to="/portfolio" className="nav__link">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
                 <a href="http://www.google.com" className="nav__link">
@@ -61,7 +61,7 @@ function App() {
           <Header />
           <Footer />
         </div>} />
-        <Route path="/portfolio" element={<Porftolio />} />
+        <Route path="/portfolio/*" element={<Porftolio />} />
         <Route path="/contato/*" element={<Contato />} />
         <Route path="/header" element={<Header />} />
       </Routes>

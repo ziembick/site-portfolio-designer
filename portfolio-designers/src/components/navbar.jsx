@@ -20,14 +20,14 @@ function Navbar() {
     <Routes>
         <Route path="/" element={<div>
           <nav className="nav">
-            <Link to="/header" className="nav__brand">
+            <Link to="/" className="nav__brand">
               <img src={Logo} alt="Silvio Logo" className="nav__logo" />
             </Link>
             <ul className={active}>
               <li className="nav__item">
-                <a href="http://www.google.com" className="nav__link">
+                <Link to="/portfolio" className="nav__link">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
                 <a href="http://www.google.com" className="nav__link">
