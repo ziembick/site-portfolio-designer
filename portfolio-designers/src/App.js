@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import Contato from "./components/contato";
 import { Route, Routes } from "react-router-dom";
 import Porftolio from "./components/portfolio";
+import PontoBank from "./components/ponto"
 
 function App() {
   const [active, setActive] = useState("nav__menu");
@@ -64,6 +65,7 @@ function App() {
         <Route path="/portfolio/*" element={<Porftolio />} />
         <Route path="/contato/*" element={<Contato />} />
         <Route path="/header" element={<Header />} />
+        <Route path="/ponto-bank" element={<PontoBank />} />
       </Routes>
   );
 }
