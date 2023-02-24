@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
+import ponto1 from "../img/ponto-bank-1.gif"
+import ponto2 from "../img/ponto-bank-2.png"
 import "../../src/portfolio.css";
 import Navbar from "./navbar";
+import Footer from "./footer"
 
 function Porftolio() {
   const [hovering, setHovering] = useState(false);
@@ -15,11 +18,20 @@ function Porftolio() {
           src={hovering ? tucafe2 : tucafe1}
           alt="Tuca Cafe"
           className={`tuca-cafe ${hovering ? "hover" : ""}`}
+          onMouseEnter={() => setHovering(true)}
+          onMouseLeave={() => setHovering(false)}
+        />
+        {hovering && <p className="tuca-cafe-text">Tuca Café</p>}
+        <img
+          src={hovering ? ponto2 : ponto1}
+          alt="Ponto Bank"
+          className={`tuca-cafe ${hovering ? "hover" : ""}`}
           onMouseOver={() => setHovering(true)}
           onMouseOut={() => setHovering(false)}
         />
-        <div className="tuca-cafe-text">Tuca Café</div>
+        <p className="tuca-cafe-text">Ponto Bank</p>
       </section>
+      <Footer />
     </>
   );
 }
