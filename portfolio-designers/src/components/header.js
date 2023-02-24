@@ -2,6 +2,7 @@ import React from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png"
 import dribble from "../img/dribble.png"
+import tucafe1 from "../img/tucacafe1.png"
 
 import "../header.css";
 
@@ -28,6 +29,9 @@ function Header() {
         <img src={dribble} alt="Dribble Logo" className="section__container-ig_dribble_logo" />
         </a>
       </li>
+    </section>
+    <section className="container">
+      <img src={tucafe1} alt="Tuca Cafe" className="tuca-cafe"/>
     </section>
     </>
   );

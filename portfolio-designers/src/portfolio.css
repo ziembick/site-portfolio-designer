@@ -1,4 +1,24 @@
-.tuca-cafe {
-    width: 100px;
-    height: 100px;
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+.tuca-cafe:hover {
+  filter: brightness(90%);
+}
+
+.tuca-cafe {
+  width: 50%;
+  margin: 0 auto;
+  transition: opacity 0.9s ease-in-out;
+}
+
+/* .tuca-cafe.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tuca-cafe:hover .hover {
+  opacity: 1;
+} */
