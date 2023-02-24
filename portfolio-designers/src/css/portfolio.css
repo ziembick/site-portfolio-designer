@@ -1,6 +1,8 @@
 .portfolio {
   width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  left: 15%;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+ 
 }
