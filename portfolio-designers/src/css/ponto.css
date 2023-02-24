@@ -4,3 +4,10 @@
     left: 25%;
     padding-top: 7rem;
 }
+
+p, h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
