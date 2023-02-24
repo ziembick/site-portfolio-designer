@@ -15,7 +15,8 @@ function Porftolio() {
   return (
     <>
       <Navbar />
-      <section className="container-div">
+      <section className="portfolio">
+        <Link to="/tuca-cafe">
         <img
           src={hoveringTucafe ? tucafe2 : tucafe1}
           alt="Tuca Cafe"
@@ -24,6 +25,7 @@ function Porftolio() {
           onMouseOut={() => setHoveringTucafe(false)}
         />
         <div className="tuca-cafe-text">Tuca Café</div>
+        </Link>
         <Link to="/ponto-bank" className="link-class">
           <img
             src={hoveringPonto ? ponto2 : ponto1}

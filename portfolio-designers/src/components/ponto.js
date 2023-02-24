@@ -4,7 +4,7 @@ import React from "react";
 function PontoBank () {
     return (
         <div>
-            <h1>OI</h1>
+            <h1>PONTOBANK</h1>
         </div>
     )
 }

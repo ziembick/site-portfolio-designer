@@ -59,3 +59,87 @@ h1 {
 h1:first-child {
   color: grey;
 }
+
+.container-div {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.tuca-cafe:hover {
+  filter: brightness(70%);
+}
+
+.tuca-cafe {
+  width: 50%;
+  margin: 0 auto;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.tuca-cafe.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tuca-cafe:hover .hover {
+  opacity: 1;
+}
+
+.tuca-cafe-text {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tuca-cafe.hover + .tuca-cafe-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.ponto-bank:hover {
+  filter: brightness(70%);
+}
+
+.ponto-bank {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 20px;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.ponto-bank.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ponto-bank:hover .hover {
+  opacity: 1;
+}
+
+.ponto-bank-text {
+  position: absolute;
+  top: 50%;
+  left: 115rem;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ponto-bank.hover + .ponto-bank-text {
+  visibility: visible;
+  opacity: 1;
+}
