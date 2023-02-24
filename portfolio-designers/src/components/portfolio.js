@@ -3,9 +3,10 @@ import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif"
 import ponto2 from "../img/ponto-bank-2.png"
-import "../../src/portfolio.css";
+import "../css/portfolio.css"
 import Navbar from "./navbar";
 import Footer from "./footer"
+import { Link } from "react-router-dom";
 
 function Porftolio() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
