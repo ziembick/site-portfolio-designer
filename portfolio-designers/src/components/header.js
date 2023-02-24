@@ -59,7 +59,7 @@ function Header() {
           <img
             src={hoveringTucafe ? tucafe2 : tucafe1}
             alt="Tuca Cafe"
-            className={`tuca-cafe ${hoveringTucafe ? "hover" : ""}`}
+            className={`tuca-cafe ${hoveringTucafe ? "hover" : ""} `}
             onMouseOver={() => setHoveringTucafe(true)}
             onMouseOut={() => setHoveringTucafe(false)}
           />
