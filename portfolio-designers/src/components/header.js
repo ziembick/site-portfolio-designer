@@ -1,13 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png"
 import dribble from "../img/dribble.png"
 import tucafe1 from "../img/tucacafe1.png"
+import tucafe2 from "../img/tuca-cafe-2.gif";
 
 import "../header.css";
 
 
 function Header() {
+
+  const [hovering, setHovering] = useState(false);
+
   return (
     <>
     <section className="section__container">
@@ -31,8 +35,15 @@ function Header() {
       </li>
     </section>
     <section className="container">
-      <img src={tucafe1} alt="Tuca Cafe" className="tuca-cafe"/>
-    </section>
+        <img
+          src={hovering ? tucafe2 : tucafe1}
+          alt="Tuca Cafe"
+          className={`tuca-cafe ${hovering ? "hover" : ""}`}
+          onMouseOver={() => setHovering(true)}
+          onMouseOut={() => setHovering(false)}
+        />
+        <div className="tuca-cafe-text">Tuca Café</div>
+      </section>
     </>
   );
 }

@@ -12,12 +12,13 @@ function Porftolio() {
       <Navbar />
       <section className="container">
         <img
-          src={hovering ? tucafe1 : tucafe2}
+          src={hovering ? tucafe2 : tucafe1}
           alt="Tuca Cafe"
           className={`tuca-cafe ${hovering ? "hover" : ""}`}
-          onMouseEnter={() => setHovering(true)}
-          onMouseLeave={() => setHovering(false)}
+          onMouseOver={() => setHovering(true)}
+          onMouseOut={() => setHovering(false)}
         />
+        <div className="tuca-cafe-text">Tuca Café</div>
       </section>
     </>
   );

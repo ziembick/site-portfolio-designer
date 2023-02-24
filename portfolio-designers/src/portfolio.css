@@ -5,7 +5,7 @@
 }
 
 .tuca-cafe:hover {
-  filter: brightness(90%);
+  filter: brightness(70%);
 }
 
 .tuca-cafe {
@@ -14,11 +14,28 @@
   transition: opacity 0.9s ease-in-out;
 }
 
-/* .tuca-cafe.hover {
+.tuca-cafe.hover {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
 
 .tuca-cafe:hover .hover {
   opacity: 1;
-} */
+}
+
+.tuca-cafe-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tuca-cafe.hover + .tuca-cafe-text {
+  visibility: visible;
+  opacity: 1;
+}
