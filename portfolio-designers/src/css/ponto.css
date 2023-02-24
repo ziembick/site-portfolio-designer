@@ -5,9 +5,15 @@
     padding-top: 7rem;
 }
 
-p, h4 {
+.ponto-p {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.ponto-bank-2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
 }
