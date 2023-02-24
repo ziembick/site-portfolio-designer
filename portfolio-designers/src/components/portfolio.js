@@ -22,14 +22,7 @@ function Porftolio() {
           onMouseLeave={() => setHovering(false)}
         />
         {hovering && <p className="tuca-cafe-text">Tuca Café</p>}
-        <img
-          src={hovering ? ponto2 : ponto1}
-          alt="Ponto Bank"
-          className={`tuca-cafe ${hovering ? "hover" : ""}`}
-          onMouseOver={() => setHovering(true)}
-          onMouseOut={() => setHovering(false)}
-        />
-        <p className="tuca-cafe-text">Ponto Bank</p>
+        
       </section>
       <Footer />
     </>

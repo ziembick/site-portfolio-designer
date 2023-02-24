@@ -1,7 +1,12 @@
-.container {
+.container-div {
   width: 100%;
-  display: flex;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: grid;
   justify-content: center;
+  align-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
 }
 
 .tuca-cafe:hover {
@@ -36,6 +41,43 @@
 }
 
 .tuca-cafe.hover + .tuca-cafe-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.ponto-bank:hover {
+  filter: brightness(70%);
+}
+
+.ponto-bank {
+  width: 50%;
+  margin: 0 auto;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.ponto-bank.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ponto-bank:hover .hover {
+  opacity: 1;
+}
+
+.ponto-bank-text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ponto-bank.hover + .ponto-bank-text {
   visibility: visible;
   opacity: 1;
 }

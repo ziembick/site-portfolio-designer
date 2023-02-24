@@ -10,7 +10,8 @@ import ponto2 from "../img/ponto-bank-2.png";
 import "../header.css";
 
 function Header() {
-  const [hovering, setHovering] = useState(false);
+  const [hoveringTucafe, setHoveringTucafe] = useState(false);
+  const [hoveringPonto, setHoveringPonto] = useState(false);
 
   return (
     <>
@@ -54,24 +55,25 @@ function Header() {
         </li>
       </section>
       <section className="container">
-        <img
-          src={hovering ? tucafe2 : tucafe1}
-          alt="Tuca Cafe"
-          className={`tuca-cafe ${hovering ? "hover" : ""}`}
-          onMouseOver={() => setHovering(true)}
-          onMouseOut={() => setHovering(false)}
-        />
-        <div className="tuca-cafe-text">Tuca Café</div>
-        <img
-          src={hovering ? ponto2 : ponto1}
-          alt="Ponto Bank"
-          className={`tuca-cafe ${hovering ? "hover" : ""}`}
-          onMouseOver={() => setHovering(true)}
-          onMouseOut={() => setHovering(false)}
-        />
-        <p className="tuca-cafe-text">Ponto Bank</p>
+        <div className="container-div">
+          <img
+            src={hoveringTucafe ? tucafe2 : tucafe1}
+            alt="Tuca Cafe"
+            className={`tuca-cafe ${hoveringTucafe ? "hover" : ""}`}
+            onMouseOver={() => setHoveringTucafe(true)}
+            onMouseOut={() => setHoveringTucafe(false)}
+          />
+          <div className="tuca-cafe-text">Tuca Café</div>
+          <img
+            src={hoveringPonto ? ponto2 : ponto1}
+            alt="Ponto Bank"
+            className={`ponto-bank ${hoveringPonto ? "hover" : ""}`}
+            onMouseOver={() => setHoveringPonto(true)}
+            onMouseOut={() => setHoveringPonto(false)}
+          />
+          <p className="ponto-bank-text">Ponto Bank</p>
+        </div>
       </section>
-      
     </>
   );
 }
