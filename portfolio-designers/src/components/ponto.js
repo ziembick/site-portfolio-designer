@@ -40,6 +40,9 @@ function PontoBank() {
       </div>
       <img src={ponto3} alt="Ponto Bank 3" />
       <img src={ponto2} alt="Ponto Bank 2" className="ponto-bank-2" />
+      <img src={ponto4} alt="Ponto Bank4" className="ponto-bank-2" />
+      <img src={ponto5} alt="Ponto Bank 5" />
+      <img src={ponto6} alt="Ponto Bank 6" className="ponto-bank-2" />
     </>
   );
 }
