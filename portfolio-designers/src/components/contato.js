@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
-import "../../src/contato.css";
+import "../css/contato.css"
 import Footer from "./footer";
 
 function Contato() {

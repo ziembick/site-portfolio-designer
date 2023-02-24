@@ -4,9 +4,10 @@ import "../footer.css";
 
 function Footer() {
     return (
-        <footer>
-            <img src={Logo} alt="Silvio Lima" className="nav__logo"/>
-        </footer>
+        <>
+        <img src={Logo} alt="Silvio Lima" className="nav__logo"/>
+        <p>Silvio Lima</p>
+        </>
     )
 }
 

@@ -8,21 +8,31 @@ import Navbar from "./navbar";
 import Footer from "./footer"
 
 function Porftolio() {
-  const [hovering, setHovering] = useState(false);
+  const [hoveringTucafe, setHoveringTucafe] = useState(false);
+  const [hoveringPonto, setHoveringPonto] = useState(false);
 
   return (
     <>
       <Navbar />
       <section className="container">
-        <img
-          src={hovering ? tucafe2 : tucafe1}
-          alt="Tuca Cafe"
-          className={`tuca-cafe ${hovering ? "hover" : ""}`}
-          onMouseEnter={() => setHovering(true)}
-          onMouseLeave={() => setHovering(false)}
-        />
-        {hovering && <p className="tuca-cafe-text">Tuca Café</p>}
-        
+        <div className="container-div">
+          <img
+            src={hoveringTucafe ? tucafe2 : tucafe1}
+            alt="Tuca Cafe"
+            className={`tuca-cafe ${hoveringTucafe ? "hover" : ""} `}
+            onMouseOver={() => setHoveringTucafe(true)}
+            onMouseOut={() => setHoveringTucafe(false)}
+          />
+          <div className="tuca-cafe-text">Tuca Café</div>
+          <img
+            src={hoveringPonto ? ponto2 : ponto1}
+            alt="Ponto Bank"
+            className={`ponto-bank ${hoveringPonto ? "hover" : ""}`}
+            onMouseOver={() => setHoveringPonto(true)}
+            onMouseOut={() => setHoveringPonto(false)}
+          />
+          <p className="ponto-bank-text">Ponto Bank</p>
+        </div>
       </section>
       <Footer />
     </>
