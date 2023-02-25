@@ -17,7 +17,6 @@ function PontoBank() {
       <Navbar />
       <img src={ponto1} alt="Ponto Bank" className="ponto-img-1" />
       <div>
-        <h4 className="ponto-p">Sobre o projeto:</h4>
         <p className="ponto-p">
           Fui a fundo na criação do símbolo de ponto que da o nome a empresa,
           descobrindo que o mesmo foi criado no século III A.C e introduzida por
@@ -43,6 +42,9 @@ function PontoBank() {
       <img src={ponto4} alt="Ponto Bank4" className="ponto-bank-2" />
       <img src={ponto5} alt="Ponto Bank 5" />
       <img src={ponto6} alt="Ponto Bank 6" className="ponto-bank-2" />
+      <img src={ponto7} alt="Ponto Bank 7" className="ponto-bank-2" />
+      <img src={ponto8} alt="Ponto Bank 8" className="ponto-bank-2" />
+      <img src={ponto9} alt="Ponto Bank9" className="ponto-bank-2" />
     </>
   );
 }
