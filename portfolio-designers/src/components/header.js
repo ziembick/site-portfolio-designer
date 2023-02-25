@@ -5,7 +5,7 @@ import dribble from "../img/dribble.png";
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
-import ponto2 from "../img/ponto-bank-2.png";
+import ponto2 from "../img/ponto-bank-7.png";
 import "../css/header.css"
 
 function Header() {
