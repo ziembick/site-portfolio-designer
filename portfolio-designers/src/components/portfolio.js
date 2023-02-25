@@ -30,11 +30,11 @@ function Porftolio() {
           <img
             src={hoveringPonto ? ponto2 : ponto1}
             alt="Ponto Bank"
-            className={`ponto-bank ${hoveringPonto ? "hover" : ""}`}
+            className={`ponto-bank-port ${hoveringPonto ? "hover" : ""}`}
             onMouseOver={() => setHoveringPonto(true)}
             onMouseOut={() => setHoveringPonto(false)}
           />
-          <p className="ponto-bank-text">Ponto Bank</p>
+          <p className="ponto-bank-text-port">Ponto Bank</p>
         </Link>
       </section>
       <Footer />

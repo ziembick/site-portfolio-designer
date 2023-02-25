@@ -6,3 +6,40 @@
   padding-bottom: 7rem;
  
 }
+
+.ponto-bank-port:hover {
+  filter: brightness(70%);
+}
+
+.ponto-bank-port {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 20px;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.ponto-bank-port.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ponto-bank-port:hover .hover {
+  opacity: 1;
+}
+
+.ponto-bank-text {
+  position: absolute;
+  top: 50%;
+  left: 115rem;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ponto-bank-port.hover + .ponto-bank-port-text {
+  visibility: visible;
+  opacity: 1;
+}
