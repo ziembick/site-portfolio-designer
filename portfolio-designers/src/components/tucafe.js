@@ -4,6 +4,12 @@ import Navbar from "./navbar";
 function Tucafe() {
   const [images, setImages] = useEffect();
 
+  useEffect(() => {
+    async function loadImages(){
+      
+    }
+  },[])
+
 
 
   return (
