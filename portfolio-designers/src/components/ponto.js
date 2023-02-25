@@ -1,17 +1,44 @@
 import React from "react";
 import ponto1 from "../img/ponto-bank-1.gif";
-import ponto2 from "../img/ponto-bank-2.png";
-import ponto3 from "../img/ponto-bank-3.png";
-import ponto4 from "../img/ponto-bank-4.png";
-import ponto5 from "../img/ponto-bank-5.png";
-import ponto6 from "../img/ponto-bank-6.png";
-import ponto7 from "../img/ponto-bank-7.png";
-import ponto8 from "../img/ponto-bank-8.png";
-import ponto9 from "../img/ponto-bank-9.png";
 import Navbar from "./navbar";
 import "../css/ponto.css";
 
 function PontoBank() {
+  const images = [
+    { name: "ponto-bank-3.png", alt: "Ponto Bank 3" },
+    {
+      name: "ponto-bank-2.png",
+      alt: "Ponto Bank 2",
+      className: "ponto-bank-2",
+    },
+    {
+      name: "ponto-bank-4.png",
+      alt: "Ponto Bank 4",
+      className: "ponto-bank-2",
+    },
+    { name: "ponto-bank-5.png", alt: "Ponto Bank 5" },
+    {
+      name: "ponto-bank-6.png",
+      alt: "Ponto Bank 6",
+      className: "ponto-bank-2",
+    },
+    {
+      name: "ponto-bank-7.png",
+      alt: "Ponto Bank 7",
+      className: "ponto-bank-2",
+    },
+    {
+      name: "ponto-bank-8.png",
+      alt: "Ponto Bank 8",
+      className: "ponto-bank-2",
+    },
+    {
+      name: "ponto-bank-9.png",
+      alt: "Ponto Bank 9",
+      className: "ponto-bank-2",
+    },
+  ];
+
   return (
     <>
       <Navbar />
@@ -37,14 +64,14 @@ function PontoBank() {
           observar algumas referências coloquei a mão na massa.
         </p>
       </div>
-      <img src={ponto3} alt="Ponto Bank 3" />
-      <img src={ponto2} alt="Ponto Bank 2" className="ponto-bank-2" />
-      <img src={ponto4} alt="Ponto Bank4" className="ponto-bank-2" />
-      <img src={ponto5} alt="Ponto Bank 5" />
-      <img src={ponto6} alt="Ponto Bank 6" className="ponto-bank-2" />
-      <img src={ponto7} alt="Ponto Bank 7" className="ponto-bank-2" />
-      <img src={ponto8} alt="Ponto Bank 8" className="ponto-bank-2" />
-      <img src={ponto9} alt="Ponto Bank9" className="ponto-bank-2" />
+      {images.map((img) =>(
+        <img 
+        key={img.name}
+        src={require(`../img/${img.name}`).default}
+        alt={img.alt}
+        className={img.className}
+        />
+      ))}
     </>
   );
 }
