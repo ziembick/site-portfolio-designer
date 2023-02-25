@@ -130,9 +130,9 @@ h1:first-child {
 .ponto-bank-text {
   position: absolute;
   top: 50%;
-  left: 115rem;
+  left: 100rem;
   transform: translate(-50%, -50%);
-  font-size: 60px;
+  font-size: 30px;
   color: white;
   visibility: hidden;
   opacity: 0;
