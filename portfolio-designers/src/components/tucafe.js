@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./navbar";
 
 function Tucafe() {
-  const [images, setImages] = useEffect();
+  const [images, setImages] = useState();
 
   useEffect(() => {
     async function loadImages(){
@@ -17,13 +17,26 @@ function Tucafe() {
         {name: "tuca-cafe-7.gif", alt: "Tuca Cafe 7"},
         {name: "tuca-cafe-8.gif", alt: "Tuca Cafe 8"},
       ]
+      for(const file of files) {
+        const module = await import (`../img/${file.name}`)
+        images.push({...file, src: module.default})
+      }
+      setImages(images)
     }
+    loadImages()
   },[])
 
 
 
   return (
+    <>
     <Navbar />
+    <div>
+    {images.map((image, index) => (
+      <img key={index} src={image.src} alt={image.alt} className={image.className}/>
+    ))}
+    </div>
+    </>
   );
 }
 
