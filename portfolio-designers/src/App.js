@@ -32,9 +32,9 @@ function App() {
         element={
           <div>
             <nav className="nav">
-              <Link to="/" className="nav__brand">
+              {/* <Link to="/" className="nav__brand">
                 <img src={Logo} alt="Silvio Logo" className="nav__logo" />
-              </Link>
+              </Link> */}
               <ul className={active}>
                 <li className="nav__item">
                   <Link to="/portfolio" className="nav__link">
@@ -44,11 +44,6 @@ function App() {
                 <li className="nav__item">
                   <a href="http://www.google.com" className="nav__link">
                     Sobre
-                  </a>
-                </li>
-                <li className="nav__item">
-                  <a href="http://www.google.com" className="nav__link">
-                    Serviços
                   </a>
                 </li>
                 <li className="nav__item">

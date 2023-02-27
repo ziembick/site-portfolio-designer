@@ -53,7 +53,7 @@ function Header() {
           </a>
         </li>
       </section>
-      <section className="container">
+      {/* <section className="container">
         <div className="container-div">
           <img
             src={hoveringTucafe ? tucafe2 : tucafe1}
@@ -72,7 +72,7 @@ function Header() {
           />
           <p className="ponto-bank-text">Ponto Bank</p>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
