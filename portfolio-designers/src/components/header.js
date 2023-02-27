@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png";
 import dribble from "../img/dribble.png";
+import '@fontsource/roboto'
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
@@ -15,8 +16,8 @@ function Header() {
   return (
     <>
       <section className="section__container">
-        <h1 className="section__container-text-silvio">Silvio Lima</h1>
-        <h1 className="section__container-text">
+        <h1 className="section__container-text-silvio" style={{fontFamily: 'roboto'}}>Silvio Lima</h1>
+        <h1 className="section__container-text" style={{fontFamily: 'roboto'}}>
           Designer gráfico com mais de 10 anos de experiência<br></br>{" "}
           trabalhando com desenvolvimento de produtos físicos e digitais.
         </h1>
