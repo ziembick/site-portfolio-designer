@@ -15,7 +15,7 @@ body {
 li {
   list-style: none;
 }
-a {
+.nav__link {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-decoration: none;
@@ -24,7 +24,7 @@ a {
 }
 
 
-a:hover::before {
+.nav__link:hover::before {
   content: "";
   position: absolute;
   left: 80px;
