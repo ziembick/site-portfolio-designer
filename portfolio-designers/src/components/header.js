@@ -9,6 +9,7 @@ import ponto1 from "../img/ponto-bank-1.gif";
 import ponto2 from "../img/ponto-bank-7.png";
 import "../css/header.css"
 import Navbar from "./navbar";
+import Typical from "react-typical";
 
 function Header() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
@@ -18,7 +19,21 @@ function Header() {
     <>
       <section className="section__container">
         <Navbar />
-        <h1 className="section__container-text-silvio" >Designer gráfico,</h1>
+        <h1 className="section__container-text-silvio" >
+        <Typical 
+        loop={Infinity}
+        wrapper="b"
+        steps={[
+          'Designer gráfico,',
+          2000,
+          'Ui Designer,',
+          2000,
+          'Ux Designer,',
+          2000
+        ]}
+        />
+        
+        </h1>
         <h1 className="section__container-text-silvio" >criando <span className="exp">experiências</span> para marcas</h1>
         <h1 className="section__container-text" >
         Com mais de 10 anos de experiência, trabalhando com desenvolvimento<br></br>
