@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png";
 import dribble from "../img/dribble.png";
+import linkedin from "../img/linkedin.png"
 import '@fontsource/roboto'
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
@@ -17,12 +18,12 @@ function Header() {
     <>
       <section className="section__container">
         <h1 className="section__container-text-silvio" >Designer gráfico,</h1>
-        <h1 className="section__container-text-silvio" >criando <span>experiências</span> para marcas</h1>
+        <h1 className="section__container-text-silvio" >criando <span className="exp">experiências</span> para marcas</h1>
         <h1 className="section__container-text" >
         Com mais de 10 anos de experiência, trabalhando com desenvolvimento<br></br>{" "}
         de produtos físicos e digitais. Transito também na área de Ux design.
         </h1>
-        <li>
+        <li className="logos-container">
           <a
             href="http://www.instagram.com/slviol"
             className="section__container-ig"
@@ -48,7 +49,7 @@ function Header() {
             className="section__container-dribble"
           >
             <img
-              src={dribble}
+              src={linkedin}fle
               alt="Dribble Logo"
               className="section__container-ig_dribble_logo"
             />
