@@ -11,17 +11,17 @@
 
 .section__container-text-silvio {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   padding-left: 270px;
   font-size: 40px;
 }
 
 .section__container-text {
+  display: flex;
+  justify-content: center;
+  padding-right: 400px;
   font-weight: 100;
 }
-
-
-
 
 .section__container {
   background-color: #0a0a0a;
@@ -30,12 +30,6 @@
 
 .section__container h1 {
   color: white;
-}
-
-.section__container-text {
-  display: flex;
-  justify-content: center;
-  padding-right: 400px;
 }
 
 h1 {
