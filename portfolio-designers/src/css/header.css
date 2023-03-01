@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto:wght@100;400&display=swap");
 
 *,
 *::after,
@@ -6,6 +6,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+
+.section__container-text-silvio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding-left: 270px;
+  font-size: 40px;
+}
+
+.section__container-text {
+  font-weight: 100;
+}
+
+
+
 
 .section__container {
   background-color: #0a0a0a;
@@ -51,15 +67,6 @@ h1 {
   position: relative;
   left: 94rem;
   filter: brightness(0) invert(1);
-}
-
-.section__container-text-silvio {
-  padding-left: 270px;
-  font-size: 40px;
-}
-
-h1:first-child {
-  color: grey;
 }
 
 .container-div {

@@ -16,10 +16,11 @@ function Header() {
   return (
     <>
       <section className="section__container">
-        <h1 className="section__container-text-silvio" style={{fontFamily: 'roboto'}}>Silvio Lima</h1>
-        <h1 className="section__container-text" style={{fontFamily: 'roboto'}}>
-          Designer gráfico com mais de 10 anos de experiência<br></br>{" "}
-          trabalhando com desenvolvimento de produtos físicos e digitais.
+        <h1 className="section__container-text-silvio" >Designer gráfico,</h1>
+        <h1 className="section__container-text-silvio" >criando <span>experiências</span> para marcas</h1>
+        <h1 className="section__container-text" >
+        Com mais de 10 anos de experiência, trabalhando com desenvolvimento<br></br>{" "}
+        de produtos físicos e digitais. Transito também na área de Ux design.
         </h1>
         <li>
           <a
