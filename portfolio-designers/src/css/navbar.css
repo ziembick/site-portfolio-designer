@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto:wght@100;400&display=swap");
 
 *,
 *::after,
@@ -17,11 +17,11 @@ li {
 }
 a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 a:hover {
-  color: #FF2F06;
+  color: #ff2f06;
 }
 
 /* .nav {
@@ -31,7 +31,6 @@ a:hover {
   height: 8vh;
   background: #000;
 } */
-
 
 .nav__menu {
   display: flex;
@@ -43,7 +42,6 @@ a:hover {
 .nav__brand {
   text-transform: uppercase;
 }
-
 
 .nav__toggler {
   display: none;
