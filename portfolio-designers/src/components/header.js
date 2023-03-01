@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png";
-import dribble from "../img/dribble.png";
 import linkedin from "../img/linkedin.png"
 import '@fontsource/roboto'
 import tucafe1 from "../img/tucacafe1.png";
@@ -56,7 +55,7 @@ function Header() {
           </a>
         </li>
       </section>
-      {/* <section className="container">
+      <section className="container">
         <div className="container-div">
           <img
             src={hoveringTucafe ? tucafe2 : tucafe1}
@@ -75,7 +74,7 @@ function Header() {
           />
           <p className="ponto-bank-text">Ponto Bank</p>
         </div>
-      </section> */}
+      </section>
     </>
   );
 }
