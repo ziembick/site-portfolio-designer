@@ -21,7 +21,7 @@ function Header() {
         <h1 className="section__container-text-silvio" >Designer gráfico,</h1>
         <h1 className="section__container-text-silvio" >criando <span className="exp">experiências</span> para marcas</h1>
         <h1 className="section__container-text" >
-        Com mais de 10 anos de experiência, trabalhando com desenvolvimento<br></br>{" "}
+        Com mais de 10 anos de experiência, trabalhando com desenvolvimento<br></br>
         de produtos físicos e digitais. Transito também na área de Ux design.
         </h1>
         <li className="logos-container">
