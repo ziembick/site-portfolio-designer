@@ -10,6 +10,7 @@ import ponto2 from "../img/ponto-bank-7.png";
 import "../css/header.css"
 import Navbar from "./navbar";
 import Typical from "react-typical";
+import { init } from "@emailjs/browser";
 
 function Header() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
@@ -22,7 +23,6 @@ function Header() {
         <h1 className="section__container-text-silvio" >
         <Typical 
         loop={Infinity}
-        wrapper="a"
         steps={[
           'Designer gráfico,',
           2000,
