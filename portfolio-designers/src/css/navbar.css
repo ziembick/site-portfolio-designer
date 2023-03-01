@@ -24,14 +24,6 @@ a:hover {
   color: #ff2f06;
 }
 
-/* .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 8vh;
-  background: #000;
-} */
-
 .nav__menu {
   display: flex;
   flex-direction: column;

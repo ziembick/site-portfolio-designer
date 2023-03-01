@@ -8,6 +8,7 @@ import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
 import ponto2 from "../img/ponto-bank-7.png";
 import "../css/header.css"
+import Navbar from "./navbar";
 
 function Header() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
@@ -16,6 +17,7 @@ function Header() {
   return (
     <>
       <section className="section__container">
+        <Navbar />
         <h1 className="section__container-text-silvio" >Designer gráfico,</h1>
         <h1 className="section__container-text-silvio" >criando <span className="exp">experiências</span> para marcas</h1>
         <h1 className="section__container-text" >

@@ -35,11 +35,6 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav__item">
-                <a href="http://www.google.com" className="nav__link">
-                  Serviços
-                </a>
-              </li>
-              <li className="nav__item">
                 <Link to="/contato" className="nav__link">
                   Contato
                 </Link>
