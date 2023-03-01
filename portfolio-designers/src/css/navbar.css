@@ -18,10 +18,19 @@ li {
 a {
   text-decoration: none;
   color: white;
+  position: relative;
 }
 
-a:hover {
-  color: #ff2f06;
+
+a:hover::before {
+  content: "";
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  height: 3px;
+  width: 15px;
+  background-color: white;
+
 }
 
 
