@@ -22,7 +22,7 @@ function Header() {
         <h1 className="section__container-text-silvio" >
         <Typical 
         loop={Infinity}
-        wrapper="b"
+        wrapper="a"
         steps={[
           'Designer gráfico,',
           2000,
