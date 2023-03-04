@@ -86,7 +86,13 @@ function Header() {
           <ImageSlider slides={slides} />
         </div>
       </div>
-      {/* <section className="container">
+    </>
+  );
+}
+
+export default Header;
+
+/* <section className="container">
         <div className="container-div">
           <img
             src={hoveringTucafe ? tucafe2 : tucafe1}
@@ -105,9 +111,4 @@ function Header() {
           />
           <p className="ponto-bank-text">Ponto Bank</p>
         </div>
-      </section> */}
-    </>
-  );
-}
-
-export default Header;
+      </section> */

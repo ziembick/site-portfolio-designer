@@ -4,6 +4,7 @@ import "../css/imageslider.css";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
 
   const slideStyles = {
     backgroundImage: `url(${slides[currentIndex].url})`,
