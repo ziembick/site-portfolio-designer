@@ -1,0 +1,15 @@
+.sliderStyles {
+    height: 100%;
+    position: relative;
+}
+
+.leftArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 50%);
+    left: 32px;
+    font-size: 45px;
+    color: black;
+    z-index: 1;
+    cursor: pointer;
+}

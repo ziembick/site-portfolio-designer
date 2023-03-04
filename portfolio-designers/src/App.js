@@ -19,6 +19,7 @@ function App() {
         element={
           <div>
             <Header />
+
             <Footer />
           </div>
         }
@@ -33,7 +34,6 @@ function App() {
 }
 
 export default App;
-
 
 // function App() {
 //   const [active, setActive] = useState("nav__menu");

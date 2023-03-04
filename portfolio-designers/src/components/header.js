@@ -1,42 +1,56 @@
 import React, { useState } from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png";
-import linkedin from "../img/linkedin.png"
-import '@fontsource/roboto'
+import linkedin from "../img/linkedin.png";
+import "@fontsource/roboto";
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
 import ponto2 from "../img/ponto-bank-7.png";
-import "../css/header.css"
+import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
+import ImageSlider from "./ImageSlider";
 
 function Header() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
   const [hoveringPonto, setHoveringPonto] = useState(false);
 
+  const slides = [
+    { url: "http://localhost:3000/tucacafe1.png", title: "Tuca Cafe" },
+    { url: "http://localhost:3000/ponto-bank-1.gif", title: "Ponto Bank" },
+  ];
+
+  const containerStyle = {
+    width: "500px",
+    height: "280px",
+    margin: "0 auto",
+  };
+
   return (
     <>
       <section className="section__container">
         <Navbar />
-        <h1 className="section__container-text-silvio" >
-        <Typical 
-        loop={Infinity}
-        steps={[
-          'Designer gráfico,',
-          2000,
-          'Ui Designer,',
-          2000,
-          'Ux Designer,',
-          2000
-        ]}
-        />
-        
+        <h1 className="section__container-text-silvio">
+          <Typical
+            loop={Infinity}
+            steps={[
+              "Designer gráfico,",
+              2000,
+              "Ui Designer,",
+              2000,
+              "Ux Designer,",
+              2000,
+            ]}
+          />
         </h1>
-        <h1 className="section__container-text-silvio" >criando <span className="exp">experiências</span> para marcas</h1>
-        <h1 className="section__container-text" >
-        Com mais de 10 anos de experiência, trabalhando com desenvolvimento<br></br>
-        de produtos físicos e digitais. Transito também na área de Ux design.
+        <h1 className="section__container-text-silvio">
+          criando <span className="exp">experiências</span> para marcas
+        </h1>
+        <h1 className="section__container-text">
+          Com mais de 10 anos de experiência, trabalhando com desenvolvimento
+          <br></br>
+          de produtos físicos e digitais. Transito também na área de Ux design.
         </h1>
         <li className="logos-container">
           <a
@@ -64,13 +78,17 @@ function Header() {
             className="section__container-dribble"
           >
             <img
-              src={linkedin}fle
+              src={linkedin}
+              fle
               alt="Dribble Logo"
               className="section__container-ig_dribble_logo"
             />
           </a>
         </li>
       </section>
+      <div style={containerStyle}>
+              <ImageSlider slides={slides} />
+            </div>
       {/* <section className="container">
         <div className="container-div">
           <img

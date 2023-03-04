@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "../css/imageslider.css";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,6 +50,7 @@ const ImageSlider = ({ slides }) => {
     margin: "0 3px",
     cursor: "pointer",
     fontSize: "20px",
+    color: 'white',
   };
 
   const goToPrevious = () => {
@@ -68,7 +70,7 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <div style={sliderStyles}>
+    <div className="sliderStyles">
       <div style={leftArrowStyles} onClick={goToPrevious}>
         ❰
       </div>
