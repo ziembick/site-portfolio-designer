@@ -10,7 +10,6 @@ import ponto2 from "../img/ponto-bank-7.png";
 import "../css/header.css"
 import Navbar from "./navbar";
 import Typical from "react-typical";
-import { init } from "@emailjs/browser";
 
 function Header() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
@@ -72,7 +71,7 @@ function Header() {
           </a>
         </li>
       </section>
-      <section className="container">
+      {/* <section className="container">
         <div className="container-div">
           <img
             src={hoveringTucafe ? tucafe2 : tucafe1}
@@ -91,7 +90,7 @@ function Header() {
           />
           <p className="ponto-bank-text">Ponto Bank</p>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
