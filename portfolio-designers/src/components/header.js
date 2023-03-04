@@ -11,6 +11,7 @@ import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
 import ImageSlider from "./ImageSlider";
+import "../css/imageslider.css";
 
 function Header() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
@@ -21,11 +22,7 @@ function Header() {
     { url: "http://localhost:3000/ponto-bank-1.gif", title: "Ponto Bank" },
   ];
 
-  const containerStyle = {
-    width: "500px",
-    height: "280px",
-    margin: "0 auto",
-  };
+
 
   return (
     <>
@@ -86,8 +83,10 @@ function Header() {
           </a>
         </li>
       </section>
-      <div style={containerStyle}>
+      <div className="teste">
+      <div className="containerStyle">
               <ImageSlider slides={slides} />
+            </div>
             </div>
       {/* <section className="container">
         <div className="container-div">
