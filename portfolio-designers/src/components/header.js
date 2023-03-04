@@ -22,8 +22,6 @@ function Header() {
     { url: "http://localhost:3000/ponto-bank-1.gif", title: "Ponto Bank" },
   ];
 
-
-
   return (
     <>
       <section className="section__container">
@@ -84,10 +82,10 @@ function Header() {
         </li>
       </section>
       <div className="teste">
-      <div className="containerStyle">
-              <ImageSlider slides={slides} />
-            </div>
-            </div>
+        <div className="containerStyle">
+          <ImageSlider slides={slides} />
+        </div>
+      </div>
       {/* <section className="container">
         <div className="container-div">
           <img
