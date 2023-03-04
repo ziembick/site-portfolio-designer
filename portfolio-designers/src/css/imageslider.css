@@ -33,3 +33,15 @@
   background-size: cover;
 }
 
+.dotsContainerStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.dotStyles {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
