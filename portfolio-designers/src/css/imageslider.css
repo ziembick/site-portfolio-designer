@@ -7,7 +7,7 @@
   position: absolute;
   top: 30%;
   transform: translate(0, 50%);
-  left: -5rem;
+  left: -30rem;
   font-size: 45px;
   color: black;
   z-index: 1;
@@ -18,7 +18,7 @@
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  right: 32px;
+  right: -400px;
   font-size: 45px;
   color: black;
   z-index: 1;

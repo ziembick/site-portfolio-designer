@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../css/imageslider.css";
 
 const ImageSlider = ({ slides }) => {
@@ -33,6 +33,16 @@ const ImageSlider = ({ slides }) => {
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
   };
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      goToNext();
+    }, 3000); 
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [goToNext]); 
 
   return (
     <div className="sliderStyles">
