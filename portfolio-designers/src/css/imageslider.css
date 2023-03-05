@@ -26,9 +26,12 @@
 }
 
 .slideStyles {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
+  position: relative;
+  bottom: 4rem;
+  right: 25rem;
+  width: 130rem;
+  height: 60rem;
+  /* border-radius: 5px; */
   background-position: center;
   background-size: cover;
 }
@@ -66,8 +69,6 @@
   text-align: center;
   font-family: 'Roboto';
 }
-
-
 
 
 /* .slideStyles:hover::before {
