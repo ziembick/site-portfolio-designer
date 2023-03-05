@@ -52,3 +52,44 @@
   top: -30px;
 }
 
+
+.textOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* .slideStyles:hover::before {
+  content: "Tuca Cafe";
+}
+
+.slideStyles:nth-of-type(2):hover::before {
+  content: "Ponto Bank";
+}
+
+.slideStyles::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.slideStyles:hover::before {
+  opacity: 1;
+} */

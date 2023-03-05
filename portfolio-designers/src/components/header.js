@@ -3,10 +3,10 @@ import igLogo from "../img/ig.png";
 import behance from "../img/behance.png";
 import linkedin from "../img/linkedin.png";
 import "@fontsource/roboto";
-import tucafe1 from "../img/tucacafe1.png";
-import tucafe2 from "../img/tuca-cafe-2.gif";
-import ponto1 from "../img/ponto-bank-1.gif";
-import ponto2 from "../img/ponto-bank-7.png";
+// import tucafe1 from "../img/tucacafe1.png";
+// import tucafe2 from "../img/tuca-cafe-2.gif";
+// import ponto1 from "../img/ponto-bank-1.gif";
+// import ponto2 from "../img/ponto-bank-7.png";
 import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
@@ -14,8 +14,8 @@ import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
 
 function Header() {
-  const [hoveringTucafe, setHoveringTucafe] = useState(false);
-  const [hoveringPonto, setHoveringPonto] = useState(false);
+  // const [hoveringTucafe, setHoveringTucafe] = useState(false);
+  // const [hoveringPonto, setHoveringPonto] = useState(false);
 
   const slides = [
     { url: "http://localhost:3000/tucacafe1.png", title: "Tuca Cafe" },

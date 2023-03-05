@@ -10,6 +10,14 @@ const ImageSlider = ({ slides }) => {
     backgroundImage: `url(${slides[currentIndex].url})`,
   };
 
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   const goToPrevious = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
@@ -34,7 +42,14 @@ const ImageSlider = ({ slides }) => {
       <div className="rightArrowStyles" onClick={goToNext}>
         ❱
       </div>
-      <div className="slideStyles" style={slideStyles}></div>
+      <div
+        className="slideStyles"
+        style={slideStyles}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        {isHovered && <div className="textOverlay">{slides[currentIndex].title}</div>}
+      </div>
       <div className="dotsContainerStyle">
         {slides.map((slides, slideIndex) => (
           <div
