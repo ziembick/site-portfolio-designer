@@ -63,6 +63,7 @@ li {
 .nav__logo {
   position: relative;
   left: 4rem;
+  bottom: 5rem;
   width: 50px;
   height: 100px;
 }
