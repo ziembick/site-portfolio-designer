@@ -29,27 +29,28 @@ function Header() {
       <section className="section__container">
         <Navbar />
         <div className="section__container-text-wrapper">
-        <h1 className="section__container-text-silvio">
-          <Typical
-            loop={Infinity}
-            steps={[
-              "Designer gráfico,",
-              2000,
-              "Ui Designer,",
-              2000,
-              "Ux Designer,",
-              2000,
-            ]}
-          />
-        </h1>
-        <h1 className="section__container-text-silvio">
-          criando <span className="exp">experiências</span> para marcas
-        </h1>
-        <h1 className="section__container-text">
-          Com mais de 10 anos de experiência, trabalhando com desenvolvimento
-          <br></br>
-          de produtos físicos e digitais. Transito também na área de Ux design.
-        </h1>
+          <h1 className="section__container-text-silvio">
+            <Typical
+              loop={Infinity}
+              steps={[
+                "Designer gráfico,",
+                2000,
+                "Ui Designer,",
+                2000,
+                "Ux Designer,",
+                2000,
+              ]}
+            />
+          </h1>
+          <h1 className="section__container-text-silvio">
+            criando <span className="exp">experiências</span> para marcas
+          </h1>
+          <h1 className="section__container-text">
+            Com mais de 10 anos de experiência, trabalhando com desenvolvimento
+            <br></br>
+            de produtos físicos e digitais. Transito também na área de Ux
+            design.
+          </h1>
         </div>
         <li className="logos-container">
           <a
