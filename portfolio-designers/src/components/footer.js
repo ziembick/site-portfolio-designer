@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from  "../img/Logo.png"
+import logoFooter from  "../img/logo-footer.png"
 import "../css/footer.css"
 
 function Footer() {
     return (
         <>
-        <img src={Logo} alt="Silvio Lima" className="nav__logo-footer"/>
+        <img src={logoFooter} alt="Silvio Lima" className="nav__logo-footer"/>
         <p>Silvio Lima</p>
         </>
     )

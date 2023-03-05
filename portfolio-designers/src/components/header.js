@@ -28,6 +28,7 @@ function Header() {
     <>
       <section className="section__container">
         <Navbar />
+        <div className="section__container-text-wrapper">
         <h1 className="section__container-text-silvio">
           <Typical
             loop={Infinity}
@@ -49,6 +50,7 @@ function Header() {
           <br></br>
           de produtos físicos e digitais. Transito também na área de Ux design.
         </h1>
+        </div>
         <li className="logos-container">
           <a
             href="http://www.instagram.com/slviol"
