@@ -15,6 +15,7 @@
   position: relative;
   bottom: 19rem;
   left: 52.8rem;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   /* padding-left: 52.8rem;
@@ -27,6 +28,7 @@
   position: relative;
   bottom: 19rem;
   left: 52.9rem;
+  margin: 0;
   /* display: flex;
   justify-content: center; */
   color: #355C7D;
@@ -86,7 +88,12 @@ h1 {
   padding-top: 10px;
 }
 
-.tuca-cafe:hover {
+.background-container {
+  background-color: white;
+  height: 800px;
+}
+
+/* .tuca-cafe:hover {
   filter: brightness(70%);
 }
 
@@ -158,9 +165,4 @@ h1 {
 .ponto-bank.hover + .ponto-bank-text {
   visibility: visible;
   opacity: 1;
-}
-
-.background-container {
-  background-color: white;
-  height: 800px;
-}
+} */

@@ -42,7 +42,7 @@ const ImageSlider = ({ slides }) => {
     return () => {
       clearInterval(intervalId);
     };
-  }, [goToNext]); 
+  }, ); 
 
   return (
     <div className="sliderStyles">

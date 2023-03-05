@@ -5,7 +5,7 @@
 
 .leftArrowStyles {
   position: absolute;
-  top: 30%;
+  top: 53%;
   transform: translate(0, 50%);
   left: -30rem;
   font-size: 45px;
@@ -16,7 +16,7 @@
 
 .rightArrowStyles {
   position: absolute;
-  top: 50%;
+  bottom: 18%;
   transform: translate(0, -50%);
   right: -400px;
   font-size: 45px;
@@ -31,7 +31,7 @@
   right: 25rem;
   width: 130rem;
   height: 60rem;
-  /* border-radius: 5px; */
+  border-radius: 12px;
   background-position: center;
   background-size: cover;
 }
@@ -64,7 +64,6 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 170px;
-
   font-size: 50px;
   text-align: center;
   font-family: 'Roboto';
