@@ -55,16 +55,16 @@
 
 .textOverlay {
   position: absolute;
-  bottom: 0;
+  bottom: 40%;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   color: white;
   padding: 10px;
-  font-size: 18px;
+  font-size: 80px;
   text-align: center;
+  font-family: 'Roboto';
 }
-
 
 /* .slideStyles:hover::before {
   content: "Tuca Cafe";

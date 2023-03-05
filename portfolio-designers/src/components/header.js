@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import igLogo from "../img/ig.png";
 import behance from "../img/behance.png";
 import linkedin from "../img/linkedin.png";
