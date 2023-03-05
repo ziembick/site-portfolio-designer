@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto:wght@100;400&display=swap");
 
-*,
+/* *,
 *::after,
 *::before {
   margin: 0;
   box-sizing: border-box;
-}
+} */
 html {
   font-size: 62.5%;
 }
@@ -16,23 +16,22 @@ li {
   list-style: none;
 }
 .nav__link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color: #355C7D;
+  color: #355c7d;
   position: relative;
 }
 
-
 .nav__link:hover::before {
   content: "";
+  cursor: pointer;
   position: absolute;
   left: 80px;
   top: 50%;
   height: 3px;
   width: 15px;
   background-color: white;
-
 }
 
 
@@ -42,8 +41,8 @@ li {
   align-items: flex-start;
   justify-content: space-around;
   gap: 3rem;
-  position: relative;
   bottom: 0;
+  margin: 0 auto;
 }
 .nav__brand {
   text-transform: uppercase;
@@ -64,6 +63,14 @@ li {
   position: relative;
   left: 4rem;
   bottom: 5rem;
+  width: 50px;
+  height: 100px;
+}
+
+.nav__logo-footer {
+  position: relative;
+  left: 9rem;
+  bottom: 0;
   width: 50px;
   height: 100px;
 }

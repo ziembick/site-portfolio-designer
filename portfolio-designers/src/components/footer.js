@@ -5,7 +5,7 @@ import "../css/footer.css"
 function Footer() {
     return (
         <>
-        <img src={Logo} alt="Silvio Lima" className="nav__logo"/>
+        <img src={Logo} alt="Silvio Lima" className="nav__logo-footer"/>
         <p>Silvio Lima</p>
         </>
     )

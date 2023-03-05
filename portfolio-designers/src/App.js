@@ -19,7 +19,6 @@ function App() {
         element={
           <div>
             <Header />
-
             <Footer />
           </div>
         }
