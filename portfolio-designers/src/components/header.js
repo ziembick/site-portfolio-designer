@@ -81,7 +81,7 @@ function Header() {
           </a>
         </li>
       </section>
-      <div className="teste">
+      <div className="background-container">
         <div className="containerStyle">
           <ImageSlider slides={slides} />
         </div>
