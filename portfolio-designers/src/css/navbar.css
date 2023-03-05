@@ -43,7 +43,7 @@ li {
   justify-content: space-around;
   gap: 3rem;
   position: relative;
-  top: 15rem;
+  bottom: 0;
 }
 .nav__brand {
   text-transform: uppercase;
@@ -61,10 +61,10 @@ li {
 }
 
 .nav__logo {
+  position: relative;
+  left: 4rem;
   width: 50px;
-  height: 60px;
-  margin-top: 5px;
-  padding-top: 5px;
+  height: 100px;
 }
 
 /* img {

@@ -20,9 +20,9 @@ function Navbar() {
     <Routes>
         <Route path="/" element={<div>
           <nav className="nav">
-            {/* <Link to="/" className="nav__brand">
+            <Link to="/" className="nav__brand">
               <img src={Logo} alt="Silvio Logo" className="nav__logo" />
-            </Link> */}
+            </Link>
             <ul className={active}>
               <li className="nav__item">
                 <Link to="/portfolio" className="nav__link">

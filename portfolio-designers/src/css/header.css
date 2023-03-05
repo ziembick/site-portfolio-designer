@@ -12,6 +12,8 @@
 }
 
 .section__container-text-silvio {
+  position: relative;
+  bottom: 19rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   padding-left: 52.8rem;
@@ -21,6 +23,8 @@
 }
 
 .section__container-text {
+  position: relative;
+  bottom: 19rem;
   display: flex;
   color: #355C7D;
   justify-content: center;
