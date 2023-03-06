@@ -80,3 +80,12 @@ input[type="submit"] {
   padding-top: 3rem;
   padding-left: 17rem;
 }
+
+
+.smile {
+  position: absolute;
+  right: 45rem;
+  top: 20rem;
+  width: 20rem;
+  height: 20rem; 
+}
