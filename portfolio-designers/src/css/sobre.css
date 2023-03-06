@@ -1,7 +1,26 @@
-.title {
-  color: var(--branco);
+.title__container {
+  position: absolute;
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: 'Roboto';
 }
 
-.title__container {
-  color: var(--branco)
+.title {
+  font-size: 4rem;
+  color: var(--azul);
+}
+
+.title__description{
+  color: var(--azul);
+  font-size: 16px;
+}
+
+.foto-perfil {
+  position: absolute;
+  margin-left: 100rem;
+  height: 40rem;
+  width: 40rem;
 }
