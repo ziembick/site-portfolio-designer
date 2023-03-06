@@ -35,11 +35,11 @@ function Contato() {
         <Navbar />
         <form ref={form} onSubmit={sendEmail}>
           <label>Nome</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="user_name" placeholder="Seu nome aqui" />
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input type="email" name="user_email" placeholder="Seu e-mail aqui" />
           <label>Mensagem</label>
-          <textarea name="message" />
+          <textarea name="message" placeholder="Escreva sua mensagem" />
           <input type="submit" value="Enviar" />
         </form>
       </section>
