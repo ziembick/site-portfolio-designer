@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 function Sobre() {
   return (
     <>
-      <section className="section-container">
+      <section className="section__container">
         <Navbar />
       </section>
     </>

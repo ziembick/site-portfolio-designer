@@ -36,7 +36,7 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link href="/sobre" className="nav__link">
+                  <Link to="/sobre" className="nav__link">
                     Sobre
                   </Link>
                 </li>
