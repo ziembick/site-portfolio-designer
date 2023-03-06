@@ -105,7 +105,7 @@ h1 {
   height: 800px;
 }
 
-/* .tuca-cafe:hover {
+.tuca-cafe:hover {
   filter: brightness(70%);
 }
 
@@ -177,4 +177,4 @@ h1 {
 .ponto-bank.hover + .ponto-bank-text {
   visibility: visible;
   opacity: 1;
-} */
+}

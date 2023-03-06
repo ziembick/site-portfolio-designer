@@ -14,6 +14,7 @@ function Porftolio() {
 
   return (
     <>
+    <section className="section__container">
       <Navbar />
       <section className="portfolio">
         <Link to="/tuca-cafe">
@@ -36,6 +37,7 @@ function Porftolio() {
           />
           <p className="ponto-bank-text-port">Ponto Bank</p>
         </Link>
+      </section>
       </section>
       <Footer />
     </>

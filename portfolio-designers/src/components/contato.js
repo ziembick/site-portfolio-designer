@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
-import "../css/contato.css"
+import "../css/contato.css";
 import Footer from "./footer";
 
 function Contato() {
@@ -31,17 +31,17 @@ function Contato() {
 
   return (
     <>
-    <section className="section__container"> 
-      <Navbar />
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Nome</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Mensagem</label>
-        <textarea name="message" />
-        <input type="submit" value="Enviar" />
-      </form>
+      <section className="section__container">
+        <Navbar />
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Nome</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Mensagem</label>
+          <textarea name="message" />
+          <input type="submit" value="Enviar" />
+        </form>
       </section>
       <Footer />
     </>
