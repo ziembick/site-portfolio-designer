@@ -4,24 +4,26 @@ body {
 
 form {
   position: relative;
+  left: 20rem;
   bottom: 30rem;
-  right: 30rem;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   width: 70%;
   height: 50vh;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
   font-size: 16px;
 }
 
 input {
+  margin: 0 ;
   width: 50rem;
   height: 35px;
   padding: 7px;
   outline: none;
-  border-radius: 5px;
+  border-radius: 12px;
   border: 1px solid rgb(220, 220, 220);
 }
 
@@ -35,7 +37,7 @@ textarea {
   min-height: 100px;
   padding: 7px;
   outline: none;
-  border-radius: 5px;
+  border-radius: 12px;
   border: 1px solid rgb(220, 220, 220);
 }
 
@@ -47,12 +49,34 @@ label {
   margin-top: 1rem;
   color: white;
   padding-bottom: 10px;
+  font-family: 'Roboto';
 }
 
 input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
-  background: rgb(249, 105, 14);
+  background: var(--azul);
+  border-radius: 12px;
   color: white;
   border: none;
+}
+
+::placeholder {
+  color: var(--azul);
+  font-family: 'Roboto';
+  position: relative;
+  padding-left: 17rem;
+}
+
+.nome::placeholder {
+  padding-left: 20rem;
+}
+
+.email::placeholder {
+  padding-left: 19.6rem;
+}
+
+.mensagem::placeholder {
+  padding-top: 3rem;
+  padding-left: 17rem;
 }

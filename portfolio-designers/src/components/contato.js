@@ -33,15 +33,31 @@ function Contato() {
     <>
       <section className="section__container">
         <Navbar />
-        <form ref={form} onSubmit={sendEmail}>
-          <label>Nome</label>
-          <input type="text" name="user_name" placeholder="Seu nome aqui" />
-          <label>Email</label>
-          <input type="email" name="user_email" placeholder="Seu e-mail aqui" />
-          <label>Mensagem</label>
-          <textarea name="message" placeholder="Escreva sua mensagem" />
-          <input type="submit" value="Enviar" />
-        </form>
+        <div className="form-div">
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Nome</label>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Seu nome aqui"
+              className="nome"
+            />
+            <label>Email</label>
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Seu e-mail aqui"
+              className="email"
+            />
+            <label>Mensagem</label>
+            <textarea
+              name="message"
+              placeholder="Escreva sua mensagem"
+              className="mensagem"
+            />
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
       </section>
       <Footer />
     </>
