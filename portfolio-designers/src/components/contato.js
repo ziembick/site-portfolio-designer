@@ -31,6 +31,7 @@ function Contato() {
 
   return (
     <>
+    <section className="section__container"> 
       <Navbar />
       <form ref={form} onSubmit={sendEmail}>
         <label>Nome</label>
@@ -41,6 +42,7 @@ function Contato() {
         <textarea name="message" />
         <input type="submit" value="Enviar" />
       </form>
+      </section>
       <Footer />
     </>
   );
