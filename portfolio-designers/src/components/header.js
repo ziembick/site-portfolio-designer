@@ -1,7 +1,4 @@
 import React from "react";
-import igLogo from "../img/ig.png";
-import behance from "../img/behance.png";
-import linkedin from "../img/linkedin.png";
 import "@fontsource/roboto";
 // import tucafe1 from "../img/tucacafe1.png";
 // import tucafe2 from "../img/tuca-cafe-2.gif";
@@ -52,39 +49,6 @@ function Header() {
             design.
           </h1>
         </div>
-        <li className="logos-container">
-          <a
-            href="http://www.instagram.com/slviol"
-            className="section__container-ig"
-          >
-            <img
-              src={igLogo}
-              alt="Instagram Logo"
-              className="section__container-ig_logo"
-            />
-          </a>
-          <a
-            href="https://www.behance.net/SilvioLima"
-            className="section__container-behance"
-          >
-            <img
-              src={behance}
-              alt="Behance Logo"
-              className="section__container-ig_behance_logo"
-            />
-          </a>
-          <a
-            href="https://dribbble.com/SilvioLima"
-            className="section__container-dribble"
-          >
-            <img
-              src={linkedin}
-              fle
-              alt="Dribble Logo"
-              className="section__container-ig_dribble_logo"
-            />
-          </a>
-        </li>
       </section>
       <div className="background-container">
         <div className="containerStyle">
