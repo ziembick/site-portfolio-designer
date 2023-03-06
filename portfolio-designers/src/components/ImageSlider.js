@@ -37,12 +37,12 @@ const ImageSlider = ({ slides }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       goToNext();
-    }, 3000); 
+    }, 3000);
 
     return () => {
       clearInterval(intervalId);
     };
-  }, ); 
+  });
 
   return (
     <div className="sliderStyles">
@@ -58,13 +58,17 @@ const ImageSlider = ({ slides }) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        {isHovered && <div className="textOverlay">{slides[currentIndex].title}</div>}
+        {isHovered && (
+          <div className="textOverlay">{slides[currentIndex].title}</div>
+        )}
       </div>
       <div className="dotsContainerStyle">
         {slides.map((slides, slideIndex) => (
           <div
             key={slideIndex}
-            className="dotStyles"
+            className={`dotStyles ${
+              currentIndex === slideIndex ? "active" : ""
+            }`}
             onClick={() => goToSlide(slideIndex)}
           >
             ●
