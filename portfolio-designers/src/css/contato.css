@@ -18,7 +18,7 @@ form {
 }
 
 input {
-  margin: 0 ;
+  margin: 0;
   width: 50rem;
   height: 35px;
   padding: 7px;
@@ -49,7 +49,7 @@ label {
   margin-top: 1rem;
   color: white;
   padding-bottom: 10px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 input[type="submit"] {
@@ -63,7 +63,7 @@ input[type="submit"] {
 
 ::placeholder {
   color: var(--azul);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   position: relative;
   padding-left: 17rem;
 }
@@ -81,11 +81,19 @@ input[type="submit"] {
   padding-left: 17rem;
 }
 
-
 .smile {
   position: absolute;
   right: 45rem;
   top: 20rem;
   width: 20rem;
-  height: 20rem; 
+  height: 20rem;
+}
+
+.arrow-contact {
+  color: var(--branco);
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+  right: 24rem;
 }

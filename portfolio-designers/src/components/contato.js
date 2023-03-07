@@ -3,7 +3,8 @@ import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import "../css/contato.css";
 import Footer from "./footer";
-import logoFooter from  "../img/smile2.svg"
+import logoFooter from  "../img/smile2.svg";
+import { Link } from "react-router-dom";
 
 function Contato() {
   const form = useRef();
@@ -36,6 +37,7 @@ function Contato() {
         <Navbar />
         <div className="form-div">
           <form ref={form} onSubmit={sendEmail}>
+          <Link to="/" className="arrow-contact">←</Link>
             <label>Nome</label>
             <input
               type="text"
