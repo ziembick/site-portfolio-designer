@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./navbar";
 import "../css/sobre.css";
-import Perfil from "../img/perfil.svg"
+import Perfil from "../img/perfil.svg";
 
 function Sobre() {
   return (
@@ -21,7 +21,7 @@ function Sobre() {
             de Ux design.
           </h2>
         </div>
-        <img src={Perfil} alt="Foto de Perfil" className="foto-perfil"/>
+          <img src={Perfil} alt="Foto de Perfil" className="foto-perfil" />
       </section>
     </>
   );

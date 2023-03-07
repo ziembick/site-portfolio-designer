@@ -1,6 +1,6 @@
 .title__container {
   position: absolute;
-  margin-left: 20rem;
+  margin-left: 25rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -22,7 +22,9 @@
 
 .foto-perfil {
   position: absolute;
-  margin-left: 100rem;
-  height: 40rem;
-  width: 40rem;
+  margin: 0 auto;
+  top: 5rem;
+  right: 20rem;
+  height: 50rem;
+  width: 50rem;
 }
