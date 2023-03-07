@@ -61,7 +61,7 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.ponto-bank-port:hover .hover {
+.aqua:hover .hover {
   opacity: 1;
 }
 
@@ -83,3 +83,39 @@
 }
 
 
+.provu:hover {
+  filter: brightness(70%);
+}
+
+.provu {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 20px;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.provu.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.provu:hover .hover {
+  opacity: 1;
+}
+
+.provu-text {
+  position: absolute;
+  top: 50%;
+  left: 100rem;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.provu.hover + .provu-text {
+  visibility: visible;
+  opacity: 1;
+}
