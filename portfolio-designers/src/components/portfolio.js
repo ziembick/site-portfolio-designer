@@ -5,6 +5,8 @@ import ponto1 from "../img/ponto-bank-1.gif";
 import ponto2 from "../img/ponto-bank-2.png";
 import aqua1 from "../img/aqua1.png"
 import aqua2 from "../img/aqua2.png"
+import provu1 from "../img/provu1.png";
+import provu2 from "../img/provu2.gif";
 import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
