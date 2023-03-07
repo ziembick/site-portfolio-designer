@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./navbar";
 import "../css/sobre.css";
 import Perfil from "../img/perfil.svg";
+import { Link } from "react-router-dom";
 
 function Sobre() {
   return (
@@ -9,6 +10,7 @@ function Sobre() {
       <section className="section__container">
         <Navbar />
         <div className="title__container">
+          <Link to="/" className="arrow">←</Link>
           <h1 className="title">Silvio Lima</h1>
           <h2 className="title__description">
             Designer gráfico 28 anos com mais de 10 anos de experiência,
