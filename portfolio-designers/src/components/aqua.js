@@ -51,8 +51,13 @@ function Aqua() {
             atendimento ao cliente.
           </p>
         </div>
-        {images.map((image,index) => (
-          <img key={index} src={image.src} alt={image.alt} className={image.className}/>
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image.src}
+            alt={image.alt}
+            className={image.className}
+          />
         ))}
       </section>
     </>
