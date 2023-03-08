@@ -1,17 +1,11 @@
 .arrow-portfolio {
-  /* color: var(--branco);
-  text-decoration: none;
-  font-size: 3rem;
-  font-weight: bold;
-  position: relative;
-  right: 24rem; */
   color: var(--branco);
   text-decoration: none;
   font-size: 3rem;
   font-weight: bold;
   position: relative;
-  bottom: 23rem;
-  left: 29rem;
+  bottom: 22rem;
+  margin-left: 28rem;
 }
 
 
