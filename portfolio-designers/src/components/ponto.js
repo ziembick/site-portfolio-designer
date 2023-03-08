@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ponto1 from "../img/ponto-bank-1.gif"
 import Navbar from "./navbar";
+import Footer from "./footer";
 import "../css/ponto.css";
 
 function PontoBank() {
@@ -58,6 +59,7 @@ function PontoBank() {
         <img key={index} src={image.src} alt={image.alt} className={image.className} />
       ))}
       </section>
+      <Footer />
     </>
   );
 }

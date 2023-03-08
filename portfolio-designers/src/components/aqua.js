@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import aqua1 from "../img/aqua1.png";
 import Navbar from "./navbar";
 import "../css/ponto.css";
+import Footer from "./footer";
 
 function Aqua() {
   const [images, setImages] = useState([]);
@@ -60,6 +61,7 @@ function Aqua() {
           />
         ))}
       </section>
+      <Footer />
     </>
   );
 }
