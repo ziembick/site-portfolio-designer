@@ -30,6 +30,7 @@ function PontoBank() {
 
   return (
     <>
+    <section className="section__container">
       <Navbar />
       <div>
         <img src={ponto1} alt="Ponto Bank 1" className="ponto-img-1"/>
@@ -56,6 +57,7 @@ function PontoBank() {
       {images.map((image, index) => (
         <img key={index} src={image.src} alt={image.alt} className={image.className} />
       ))}
+      </section>
     </>
   );
 }

@@ -28,9 +28,12 @@ useEffect(() => {
 },[])
 
   return (
-    <div>
-      <h1>OI</h1>
-    </div>
+    <>
+    <section className="section__container">
+
+    </section>
+    </>
+
   );
 }
 
