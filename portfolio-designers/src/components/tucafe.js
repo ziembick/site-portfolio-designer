@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
 import "../css/ponto.css";
 
-function PontoBank() {
+function TucaCafe() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ function PontoBank() {
   );
 }
 
-export default PontoBank;
+export default TucaCafe;

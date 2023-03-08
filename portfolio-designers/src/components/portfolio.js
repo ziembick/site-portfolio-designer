@@ -43,7 +43,7 @@ function Porftolio() {
             />
             <p className="ponto-bank-text-port">Ponto Bank</p>
           </Link>
-          <Link to="/ponto-bank" className="link-class">
+          <Link to="/aqua" className="link-class">
             <img
               src={hoveringAqua ? aqua2 : aqua1}
               alt="Acqua Lounge"
