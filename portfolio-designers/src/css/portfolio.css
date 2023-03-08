@@ -1,7 +1,8 @@
 .portfolio {
   width: 70%;
   position: relative;
-  left: 15%;
+  left: 17%;
+  bottom: 25rem;
   padding-top: 7rem;
   padding-bottom: 7rem;
  
@@ -29,8 +30,8 @@
 
 .ponto-bank-text-port {
   position: absolute;
-  top: 50%;
-  left: 100rem;
+  top: 30%;
+  left: 90rem;
   transform: translate(-50%, -50%);
   font-size: 30px;
   color: white;
@@ -67,8 +68,8 @@
 
 .aqua-text {
   position: absolute;
-  top: 50%;
-  left: 100rem;
+  top: 70%;
+  left: 30rem;
   transform: translate(-50%, -50%);
   font-size: 30px;
   color: white;
@@ -105,10 +106,10 @@
 
 .provu-text {
   position: absolute;
-  top: 50%;
-  left: 100rem;
+  top: 55rem;
+  left: 87rem;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   visibility: hidden;
   opacity: 0;
@@ -119,3 +120,42 @@
   visibility: visible;
   opacity: 1;
 }
+
+
+
+.tuca-cafe:hover {
+  filter: brightness(70%);
+}
+
+.tuca-cafe {
+  width: 50%;
+  margin: 0 auto;
+  transition: opacity 0.9s ease-in-out;
+}
+
+.tuca-cafe.hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tuca-cafe:hover .hover {
+  opacity: 1;
+}
+
+.tuca-cafe-text {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tuca-cafe.hover + .tuca-cafe-text {
+  visibility: visible;
+  opacity: 1;
+}
+

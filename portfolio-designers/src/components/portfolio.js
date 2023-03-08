@@ -3,8 +3,8 @@ import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
 import ponto2 from "../img/ponto-bank-2.png";
-import aqua1 from "../img/aqua1.png"
-import aqua2 from "../img/aqua2.png"
+import aqua1 from "../img/aqua1.png";
+import aqua2 from "../img/aqua2.png";
 import provu1 from "../img/provu1.png";
 import provu2 from "../img/provu2.gif";
 import "../css/portfolio.css";
@@ -53,19 +53,19 @@ function Porftolio() {
             />
             <p className="aqua-text">Acqua Lounge</p>
           </Link>
-          <Link to="/ponto-bank" className="link-class">
+          <Link to="/provu" className="link-class">
             <img
               src={hoveringProvu ? provu2 : provu1}
               alt="Provu"
-              className={`provu ${hoveringPonto ? "hover" : ""}`}
+              className={`provu ${hoveringProvu ? "hover" : ""}`}
               onMouseOver={() => setHoveringProvu(true)}
-              onMouseOut={() =>  setHoveringProvu(false)}
+              onMouseOut={() => setHoveringProvu(false)}
             />
             <p className="provu-text">Provu</p>
           </Link>
         </section>
+        <Footer />
       </section>
-      <Footer />
     </>
   );
 }

@@ -9,6 +9,7 @@ import PontoBank from "./components/ponto";
 import Tucafe from "./components/tucafe";
 import Sobre from "./components/sobre";
 import Aqua from "./components/aqua";
+import Provu from "./components/provu";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           </div>
         }
       />
+      <Route path="provu/*" element={<Provu />}/>
       <Route path="/aqua/*" element={<Aqua />}/>
       <Route path="/portfolio/*" element={<Porftolio />} />
       <Route path="/contato/*" element={<Contato />} />
