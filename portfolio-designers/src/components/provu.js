@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
 import provu1 from "../img/provu1.png";
 import "../css/ponto.css";
+import Footer from "./footer";
 
 function Provu() {
   const [images, setImages] = useState([]);
@@ -62,6 +63,7 @@ function Provu() {
           />
         ))}
       </section>
+      <Footer />
     </>
   );
 }
