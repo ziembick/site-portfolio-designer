@@ -22,9 +22,10 @@ function Porftolio() {
     <>
       <section className="section__container">
         <Navbar />
-        <Link to="/" className="arrow-portfolio">←</Link>
+        <Link to="/" className="arrow-portfolio">
+          ←
+        </Link>
         <section className="portfolio">
-          
           <Link to="/tuca-cafe">
             <img
               src={hoveringTucafe ? tucafe2 : tucafe1}
@@ -35,7 +36,7 @@ function Porftolio() {
             />
             <div className="tuca-cafe-text">Tuca Café</div>
           </Link>
-          <Link to="/ponto-bank" className="link-class">
+          <Link to="/ponto-bank" >
             <img
               src={hoveringPonto ? ponto2 : ponto1}
               alt="Ponto Bank"
@@ -45,7 +46,7 @@ function Porftolio() {
             />
             <p className="ponto-bank-text-port">Ponto Bank</p>
           </Link>
-          <Link to="/aqua" className="link-class">
+          <Link to="/aqua" >
             <img
               src={hoveringAqua ? aqua2 : aqua1}
               alt="Acqua Lounge"
@@ -55,7 +56,7 @@ function Porftolio() {
             />
             <p className="aqua-text">Acqua Lounge</p>
           </Link>
-          <Link to="/provu" className="link-class">
+          <Link to="/provu" >
             <img
               src={hoveringProvu ? provu2 : provu1}
               alt="Provu"
