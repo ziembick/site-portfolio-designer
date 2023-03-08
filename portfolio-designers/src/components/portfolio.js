@@ -22,7 +22,9 @@ function Porftolio() {
     <>
       <section className="section__container">
         <Navbar />
+        <Link to="/" className="arrow-portfolio">←</Link>
         <section className="portfolio">
+          
           <Link to="/tuca-cafe">
             <img
               src={hoveringTucafe ? tucafe2 : tucafe1}
