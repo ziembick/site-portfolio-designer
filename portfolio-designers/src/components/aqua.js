@@ -59,7 +59,7 @@ function Aqua() {
                 in the development of operations and problem solving, providing
                 customer service.
               </p>
-              <button onClick={handleClick}>Português</button>
+              <button onClick={handleClick} className="lang-btn">Português</button>
             </>
           ) : (
             <>
@@ -82,7 +82,7 @@ function Aqua() {
                 no desenvolvimento das operações e resoluções de problemas,
                 prestando um serviço de atendimento ao cliente.
               </p>
-              <button onClick={handleClick}>Inglês</button>
+              <button onClick={handleClick} className="lang-btn">Inglês</button>
             </>
           )}
 
