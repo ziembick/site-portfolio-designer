@@ -1,10 +1,17 @@
 .aqua-img-1 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    bottom: 20rem;
+} 
+
+/* .aqua-img-1 {
     width: 55%;
     bottom: 25rem;
     position: relative;
     left: 25%;
     padding-top: 7rem;
-}
+} */
 
 .aqua-h2 {
     display: flex;
@@ -41,17 +48,43 @@
     flex-direction: column;
 }
 
+.aqua__container h2 {
+    padding-bottom: 2rem;
+}
+
 .fotos-aqua {
     width: 80%;
+    padding-bottom: 1rem;
 }
 
 .lang-btn {
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     background-color: var(--azul);
-    border-radius: 6px;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: var(--branco);
+    cursor: pointer;
+    padding: 14px 30px;
 }
 
 .lang-btn:hover {
     cursor: pointer;
+    background: var(--azul-hover);
 }
+
+
+/* input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: var(--azul);
+    border-radius: 12px;
+    color: white;
+    border: none;
+  }
+  
+  input[type="submit"]:hover {
+    background: var(--azul-hover);
+    transition: 0.1 ease-in;
+  } */

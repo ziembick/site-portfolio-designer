@@ -61,6 +61,11 @@ input[type="submit"] {
   border: none;
 }
 
+input[type="submit"]:hover {
+  background: var(--azul-hover);
+  transition: 0.1 ease-in;
+}
+
 ::placeholder {
   color: var(--azul);
   font-family: "Roboto";

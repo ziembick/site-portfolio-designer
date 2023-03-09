@@ -19,7 +19,7 @@ function Sobre() {
             <br />
             desenvolvimento de produtos físicos e digitais. Domínio em <br />
             diversos programas como: Photoshop, After Effects, Figma,
-            <br /> Illustrator, CorelDraw entre outros. Transito também na área
+            <br /> Illustrator, CorelDraw entre outros. Transito também na área<br />
             de Ux design.
           </h2>
         </div>
