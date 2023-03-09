@@ -1,0 +1,37 @@
+.aqua-img-1 {
+    width: 55%;
+    bottom: 25rem;
+    position: relative;
+    left: 25%;
+    padding-top: 7rem;
+}
+
+.aqua-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+}
+
+
+.aqua-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aqua-bank-2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.aqua__container {
+    position: relative;
+    bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

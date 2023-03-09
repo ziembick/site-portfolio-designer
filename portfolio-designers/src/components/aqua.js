@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import aqua1 from "../img/aqua1.png";
 import Navbar from "./navbar";
-import "../css/ponto.css";
+import "../css/aqua.css";
 import Footer from "./footer";
 
 function Aqua() {
@@ -30,28 +30,27 @@ function Aqua() {
     <>
       <section className="section__container">
         <Navbar />
-        <div>
-          <img src={aqua1} alt="Acqua Lounge" className="ponto-img-1" />
-          <h2 className="ponto-p">Sobre a Acqua Lounge</h2>
-          <p className="ponto-p">
-            A Acqua Lounge é uma empresa brasileira operando no mercado de
-            cosméticos há 33 anos e nosso propósito principal é encantar
-            pessoas. Está no mercado de varejo com linha de difusores para
-            ambientes e cosméticos. As fragrâncias sofisticadas são
-            desenvolvidas pelos mais renomados profissionais do universo
-            sensorial.
-          </p>
-          <h2 className="ponto-p">Meu trabalho</h2>
-          <p className="ponto-p">
-            Atuava em desenvolvimento de embalagens de produtos como: Hotelaria
-            e hospitais, criação de linhas para vendas em atacado Embalagens
-            para sabonetes, shampoo, condicionador e loção hidratante Entrega de
-            serviços unicos para cada consumidor, ouvindo preocupações e
-            respondendo duvidas. Auxílio ao designer no desenvolvimento das
-            operações e resoluções de problemas, prestando um serviço de
-            atendimento ao cliente.
-          </p>
-        </div>
+        <img src={aqua1} alt="Acqua Lounge" className="aqua-img-1" />
+        <div className="aqua__container">
+        <h2 className="aqua-h2">Sobre a Acqua Lounge</h2>
+        <p className="aqua-p">
+          A Acqua Lounge é uma empresa brasileira operando no mercado de
+          cosméticos há 33 anos e nosso propósito principal é encantar pessoas.
+          Está no mercado de varejo com linha de difusores para ambientes e
+          cosméticos. As fragrâncias sofisticadas são desenvolvidas pelos mais
+          renomados profissionais do universo sensorial.
+        </p>
+        <h2 className="aqua-p">Meu trabalho</h2>
+        <p className="aqua-p">
+          Atuava em desenvolvimento de embalagens de produtos como: Hotelaria e
+          hospitais, criação de linhas para vendas em atacado Embalagens para
+          sabonetes, shampoo, condicionador e loção hidratante Entrega de
+          serviços unicos para cada consumidor, ouvindo preocupações e
+          respondendo duvidas. Auxílio ao designer no desenvolvimento das
+          operações e resoluções de problemas, prestando um serviço de
+          atendimento ao cliente.
+        </p>
+
         {images.map((image, index) => (
           <img
             key={index}
@@ -60,6 +59,7 @@ function Aqua() {
             className={image.className}
           />
         ))}
+        </div>
       </section>
       <Footer />
     </>
