@@ -15,6 +15,11 @@
 
 
 .aqua-p {
+    padding-left: 16rem;
+    padding-right: 16rem;
+    line-height: 1.7;
+    font-family: 'Roboto';
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +43,15 @@
 
 .fotos-aqua {
     width: 80%;
+}
+
+.lang-btn {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: var(--azul);
+    border-radius: 6px;
+}
+
+.lang-btn:hover {
+    cursor: pointer;
 }
