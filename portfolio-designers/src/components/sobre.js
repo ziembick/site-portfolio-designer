@@ -23,7 +23,7 @@ function Sobre() {
             de Ux design.
           </h2>
         </div>
-          <img src={Perfil} alt="Foto de Perfil" className="foto-perfil" />
+          {/* <img src={Perfil} alt="Foto de Perfil" className="foto-perfil" /> */}
       </section>
     </>
   );

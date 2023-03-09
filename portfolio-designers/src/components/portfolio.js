@@ -11,12 +11,15 @@ import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import sunergy1 from "../img/sunergy.png";
+import sunergy2 from "../img/sunergy2.png";
 
 function Porftolio() {
   const [hoveringTucafe, setHoveringTucafe] = useState(false);
   const [hoveringPonto, setHoveringPonto] = useState(false);
   const [hoveringAqua, setHoveringAqua] = useState(false);
   const [hoveringProvu, setHoveringProvu] = useState(false);
+  const [hoveringSunergy, setHoveringSunergy] = useState(false);
 
   return (
     <>
@@ -34,9 +37,9 @@ function Porftolio() {
               onMouseOver={() => setHoveringTucafe(true)}
               onMouseOut={() => setHoveringTucafe(false)}
             />
-            <div className="tuca-cafe-text">Tuca Café</div>
+            {/* <div className="tuca-cafe-text">Tuca Café</div> */}
           </Link>
-          <Link to="/ponto-bank" >
+          <Link to="/ponto-bank">
             <img
               src={hoveringPonto ? ponto2 : ponto1}
               alt="Ponto Bank"
@@ -44,9 +47,9 @@ function Porftolio() {
               onMouseOver={() => setHoveringPonto(true)}
               onMouseOut={() => setHoveringPonto(false)}
             />
-            <p className="ponto-bank-text-port">Ponto Bank</p>
+            {/* <p className="ponto-bank-text-port">Ponto Bank</p> */}
           </Link>
-          <Link to="/aqua" >
+          <Link to="/aqua">
             <img
               src={hoveringAqua ? aqua2 : aqua1}
               alt="Acqua Lounge"
@@ -54,9 +57,9 @@ function Porftolio() {
               onMouseOver={() => setHoveringAqua(true)}
               onMouseOut={() => setHoveringAqua(false)}
             />
-            <p className="aqua-text">Acqua Lounge</p>
+            {/* <p className="aqua-text">Acqua Lounge</p> */}
           </Link>
-          <Link to="/provu" >
+          <Link to="/provu">
             <img
               src={hoveringProvu ? provu2 : provu1}
               alt="Provu"
@@ -64,8 +67,17 @@ function Porftolio() {
               onMouseOver={() => setHoveringProvu(true)}
               onMouseOut={() => setHoveringProvu(false)}
             />
-            <p className="provu-text">Provu</p>
+            {/* <p className="provu-text">Provu</p> */}
           </Link>
+          {/* <Link to="/provu">
+            <img
+              src={hoveringSunergy ? sunergy2 : sunergy1}
+              alt="Sunergy"
+              className={`provu ${hoveringSunergy ? "hover" : ""}`}
+              onMouseOver={() => setHoveringSunergy(true)}
+              onMouseOut={() => setHoveringSunergy(false)}
+            />
+          </Link> */}
         </section>
         <Footer />
       </section>
