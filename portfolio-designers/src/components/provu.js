@@ -16,11 +16,11 @@ function Provu() {
     async function loadImages() {
       const images = [];
       const files = [
-        { name: "provu2.gif", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "provu3.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "provu4.gif", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "provu5.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "provu6.gif", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "provu2.gif", alt: "Provu Img 1", className: "fotos-aqua" },
+        { name: "provu3.png", alt: "Provu Img 2", className: "fotos-aqua" },
+        { name: "provu4.gif", alt: "Provu Img 3", className: "fotos-aqua" },
+        { name: "provu5.png", alt: "Provu Img 4", className: "fotos-aqua" },
+        { name: "provu6.gif", alt: "Provu Img 5", className: "fotos-aqua" },
       ];
       for (const file of files) {
         const module = await import(`../img/${file.name}`);
