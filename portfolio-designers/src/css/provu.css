@@ -1,0 +1,71 @@
+.provu-img-1 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    bottom: 20rem;
+} 
+
+.provu-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+}
+
+
+.provu-p {
+    padding-left: 16rem;
+    padding-right: 16rem;
+    line-height: 1.7;
+    font-family: 'Roboto';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aqua-bank-2 {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.provu__container {
+    position: relative;
+    bottom: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.provu__container h2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.fotos-aqua {
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+.lang-btn-provu {
+    position: relative;
+    left: 39%;
+    bottom: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: var(--azul);
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: var(--branco);
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.lang-btn-provu:hover {
+    cursor: pointer;
+    background: var(--azul-hover);
+}
