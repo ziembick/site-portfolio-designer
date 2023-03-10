@@ -97,3 +97,24 @@
     cursor: pointer;
     background: var(--azul-hover);
 }
+
+
+.lang-btn-ponto {
+    position: relative;
+    left: 39%;
+    bottom: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: var(--azul);
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: var(--branco);
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.lang-btn-ponto:hover {
+    cursor: pointer;
+    background: var(--azul-hover);
+}

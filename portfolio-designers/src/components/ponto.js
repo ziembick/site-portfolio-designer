@@ -96,7 +96,7 @@ function PontoBank() {
                 was built in Egypt, and after observing some references i got my
                 hands-on the project
               </p>
-              <button onClick={handleClick} className="lang-btn-provu">
+              <button onClick={handleClick} className="lang-btn-ponto">
                 🇧🇷
               </button>
             </>
@@ -124,7 +124,7 @@ function PontoBank() {
                 Biblioteca de Alexandria e após observar algumas referências
                 coloquei a mão na massa.
               </p>
-              <button onClick={handleClick} className="lang-btn-provu">
+              <button onClick={handleClick} className="lang-btn-ponto">
                 🇺🇸
               </button>
             </>
