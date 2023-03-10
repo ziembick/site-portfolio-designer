@@ -1,9 +1,9 @@
 .aqua-img-1 {
-    width: 80%;
-    position: relative;
-    left: 10%;
-    bottom: 20rem;
-} 
+  width: 80%;
+  position: relative;
+  left: 10%;
+  bottom: 20rem;
+}
 
 /* .aqua-img-1 {
     width: 55%;
@@ -14,109 +14,110 @@
 } */
 
 .aqua-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--branco);
 }
 
-
 .aqua-p {
-    padding-left: 16rem;
-    padding-right: 16rem;
-    text-align-last:initial;
-    word-spacing: 2px;
-    line-height: 1.7;
-    font-family: 'Roboto';
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  text-align-last: initial;
+  word-spacing: 2px;
+  line-height: 1.7;
+  font-family: "Roboto";
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .aqua-bank-2 {
-    width: 80%;
-    position: relative;
-    left: 10%;
+  width: 80%;
+  position: relative;
+  left: 10%;
 }
 
 .aqua__container {
-    position: relative;
-    bottom: 13rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: relative;
+  bottom: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .aqua__container h2 {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .fotos-aqua {
-    width: 80%;
-    padding-bottom: 1rem;
+  width: 80%;
+  padding-bottom: 1rem;
 }
 
 .lang-btn {
-    position: relative;
-    left: 39%;
-    bottom: 29rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    background-color: var(--azul);
-    border-radius: 12px;
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: var(--branco);
-    cursor: pointer;
-    padding: 1rem;
+  position: relative;
+  left: 39%;
+  bottom: 29rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background-color: var(--azul);
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: var(--branco);
+  cursor: pointer;
+  padding: 1rem;
 }
 
 .lang-btn:hover {
-    cursor: pointer;
-    background: var(--azul-hover);
+  cursor: pointer;
+  background: var(--azul-hover);
 }
 
 .lang-btn-provu {
-    position: relative;
-    left: 39%;
-    bottom: 35rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    background-color: var(--azul);
-    border-radius: 12px;
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: var(--branco);
-    cursor: pointer;
-    padding: 1rem;
+  position: relative;
+  left: 39%;
+  bottom: 35rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background-color: var(--azul);
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: var(--branco);
+  cursor: pointer;
+  padding: 1rem;
+  transition: 1s;
+  text-decoration: none;
 }
 
 .lang-btn-provu:hover {
-    cursor: pointer;
-    background: var(--azul-hover);
+  cursor: pointer;
+  background: var(--clr );
 }
 
 
 .lang-btn-ponto {
-    position: relative;
-    left: 39%;
-    bottom: 40rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    background-color: var(--azul);
-    border-radius: 12px;
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: var(--branco);
-    cursor: pointer;
-    padding: 1rem;
+  position: relative;
+  left: 39%;
+  bottom: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background-color: var(--azul);
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: var(--branco);
+  cursor: pointer;
+  padding: 1rem;
 }
 
 .lang-btn-ponto:hover {
-    cursor: pointer;
-    background: var(--azul-hover);
+  cursor: pointer;
+  background: var(--azul-hover);
 }

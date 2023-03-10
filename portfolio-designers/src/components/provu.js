@@ -56,14 +56,18 @@ function Provu() {
               <h2 className="aqua-h2">My Work</h2>
               <p className="aqua-p">
                 I worked on developing every visual part of the company's
-                Employer branding as:Pieces for social networks and internal
+                Employer branding as: Pieces for social networks and internal
                 engagement, diversity, onboarding, volunteering and careers
                 programs. I also made pieces for on and off media as well as all
                 art for the company's new office. I also did motion work and
                 editing and recording of internal and external videos..
               </p>
-              <button onClick={handleClick} className="lang-btn-provu">
-                🇧🇷
+              <button
+                onClick={handleClick}
+                className="lang-btn-provu"
+                style={{ "--clr": "#00ccff", "--i": "" }}
+              >
+                Português
               </button>
             </>
           ) : (
@@ -90,8 +94,12 @@ function Provu() {
                 trabalhos de motion e edição e gravação de vídeos internos e
                 externos.
               </p>
-              <button onClick={handleClick} className="lang-btn-provu">
-                🇺🇸
+              <button
+                onClick={handleClick}
+                className="lang-btn-provu"
+                style={{ "--clr": "#00ccff", "--i": "" }}
+              >
+                English
               </button>
             </>
           )}
@@ -112,4 +120,3 @@ function Provu() {
 }
 
 export default Provu;
-
