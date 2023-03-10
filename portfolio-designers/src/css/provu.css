@@ -1,3 +1,8 @@
+img {
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
 .provu-img-1 {
     width: 80%;
     position: relative;
@@ -25,11 +30,6 @@
     color: white;
 }
 
-.aqua-bank-2 {
-    width: 80%;
-    position: relative;
-    left: 10%;
-}
 
 .provu__container {
     position: relative;
@@ -45,10 +45,15 @@
     padding-top: 2rem;
 }
 
-.fotos-aqua {
+/* .fotos-provu {
     width: 80%;
     padding-bottom: 1rem;
+} */
+
+.fotos-provu {
+    padding-bottom: 1rem;
 }
+
 
 .lang-btn-provu {
     position: relative;
@@ -69,3 +74,4 @@
     cursor: pointer;
     background: var(--azul-hover);
 }
+

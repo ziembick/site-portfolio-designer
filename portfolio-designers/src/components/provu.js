@@ -16,11 +16,11 @@ function Provu() {
     async function loadImages() {
       const images = [];
       const files = [
-        { name: "provu2.gif", alt: "Provu", className: "provu-img-2" },
-        { name: "provu3.png", alt: "Provu" , className: "provu-img-3"},
-        { name: "provu4.gif", alt: "Provu", className: "provu-img-4" },
-        { name: "provu5.png", alt: "Provu", className: "provu-img-5" },
-        { name: "provu6.gif", alt: "Provu", className: "provu-img-6" },
+        { name: "provu2.gif", alt: "Provu", className: "fotos-provu" },
+        { name: "provu3.png", alt: "Provu", className: "fotos-provu" },
+        { name: "provu4.gif", alt: "Provu", className: "fotos-provu" },
+        { name: "provu5.png", alt: "Provu", className: "fotos-provu" },
+        { name: "provu6.gif", alt: "Provu", className: "fotos-provu" },
       ];
       for (const file of files) {
         const module = await import(`../img/${file.name}`);
@@ -95,7 +95,6 @@ function Provu() {
               </button>
             </>
           )}
-
           {images.map((image, index) => (
             <img
               key={index}
