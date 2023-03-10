@@ -49,7 +49,7 @@ function Aqua() {
                 developed by the most respected professionals in the sensorial
                 universe.
               </p>
-              <h2 className="aqua-h2-mywork">My Work</h2>
+              <h2 className="aqua-h2">My Work</h2>
               <p className="aqua-p">
                 I worked in the development of packaging for products such as:
                 Hospitality and hospitals, creating lines for wholesale sales

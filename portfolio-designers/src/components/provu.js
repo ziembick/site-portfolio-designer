@@ -6,6 +6,11 @@ import Footer from "./footer";
 
 function Provu() {
   const [images, setImages] = useState([]);
+  const [showNewText, setShowNewText] = useState(false);
+
+  function handleClick () {
+    setShowNewText((prevShowNewText) => !prevShowNewText)
+  }
 
   useEffect(() => {
     async function loadImages() {
