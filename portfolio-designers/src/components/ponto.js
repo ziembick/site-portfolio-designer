@@ -74,7 +74,7 @@ function PontoBank() {
         <div className="aqua__container">
           {showNewText ? (
             <>
-              <h2 className="aqua-h2">About Provu</h2>
+              <h2 className="aqua-h2">About the project</h2>
               <p className="aqua-p">
                 I went deep into the creation of the dot symbol that gives the
                 company its name, discovering that it was created in the 3rd
