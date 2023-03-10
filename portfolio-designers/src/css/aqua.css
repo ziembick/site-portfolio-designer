@@ -50,6 +50,7 @@
 
 .aqua__container h2 {
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .fotos-aqua {
@@ -60,7 +61,7 @@
 .lang-btn {
     position: relative;
     left: 39%;
-    bottom: 27rem;
+    bottom: 29rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
     background-color: var(--azul);
