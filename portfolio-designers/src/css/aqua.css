@@ -58,6 +58,9 @@
 }
 
 .lang-btn {
+    position: relative;
+    left: 39%;
+    bottom: 27rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
     background-color: var(--azul);
@@ -66,7 +69,7 @@
     font-size: 16px;
     color: var(--branco);
     cursor: pointer;
-    padding: 14px 30px;
+    padding: 1rem;
 }
 
 .lang-btn:hover {
