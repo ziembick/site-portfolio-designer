@@ -63,7 +63,7 @@ function Provu() {
                 editing and recording of internal and external videos..
               </p>
               <button onClick={handleClick} className="lang-btn-provu">
-                Português
+                <span>Português</span>
               </button>
             </>
           ) : (
@@ -91,7 +91,7 @@ function Provu() {
                 externos.
               </p>
               <button onClick={handleClick} className="lang-btn-provu">
-                English
+                <span>English</span>
               </button>
             </>
           )}
