@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import "../css/aqua.css";
 import Footer from "./footer";
 import tucafe1 from "../img/tucacafe1.png";
+import { Link } from "react-router-dom";
 
 function Tucafe() {
   const [images, setImages] = useState([]);
@@ -60,6 +61,9 @@ function Tucafe() {
     <>
       <section className="section__container">
         <Navbar />
+        <Link to="/" className="arrow-port">
+          ←
+        </Link>
         <img src={tucafe1} alt="Acqua Lounge" className="aqua-img-1" />
         <div className="aqua__container">
           {/* {showNewText ? (
