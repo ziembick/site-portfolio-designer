@@ -1,5 +1,8 @@
 .page {
-  color: var(--branco);
+  color: var(--azul);
+  font-family: 'Roboto';
+  font-size: 4rem;
+  margin-top: 1em;
 }
 
 .smile-404 {
@@ -20,4 +23,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.back-btn {
+    font-family: 'Roboto';
+    margin-top: 1rem;
+    color: var(--azul);
+    text-decoration: none;
+    font-size: 2rem;
 }

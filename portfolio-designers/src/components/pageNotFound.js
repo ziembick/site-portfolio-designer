@@ -13,7 +13,9 @@ function PageNotFound() {
           <img src={smile} alt="Smile" className="smile-404" />
           <div className="page-container">
             <h1 className="page">Não tem nada aqui!</h1>
-            <Link to="/">Voltar</Link>
+            <Link to="/" className="back-btn">
+              Voltar
+            </Link>
           </div>
         </div>
       </section>
