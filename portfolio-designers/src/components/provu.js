@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import "../css/aqua.css";
 import Footer from "./footer";
 import provu1 from "../img/provu1.png";
+import { Link } from "react-router-dom";
 
 function Provu() {
   const [images, setImages] = useState([]);
@@ -35,6 +36,9 @@ function Provu() {
     <>
       <section className="section__container">
         <Navbar />
+        <Link to="/" className="arrow-port">
+          ←
+        </Link>
         <img src={provu1} alt="Acqua Lounge" className="aqua-img-1" />
         <div className="aqua__container">
           {showNewText ? (
