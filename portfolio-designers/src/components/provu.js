@@ -62,11 +62,7 @@ function Provu() {
                 art for the company's new office. I also did motion work and
                 editing and recording of internal and external videos..
               </p>
-              <button
-                onClick={handleClick}
-                className="lang-btn-provu"
-                style={{ "--clr": "#00ccff", "--i": "" }}
-              >
+              <button onClick={handleClick} className="lang-btn-provu">
                 Português
               </button>
             </>
@@ -94,11 +90,7 @@ function Provu() {
                 trabalhos de motion e edição e gravação de vídeos internos e
                 externos.
               </p>
-              <button
-                onClick={handleClick}
-                className="lang-btn-provu"
-                style={{ "--clr": "#00ccff", "--i": "" }}
-              >
+              <button onClick={handleClick} className="lang-btn-provu">
                 English
               </button>
             </>
