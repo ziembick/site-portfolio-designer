@@ -59,7 +59,7 @@
   padding-bottom: 1rem;
 }
 
-.lang-btn {
+/* .lang-btn {
   position: relative;
   left: 39%;
   bottom: 29rem;
@@ -77,7 +77,7 @@
 .lang-btn:hover {
   cursor: pointer;
   background: var(--azul-hover);
-}
+} */
 
 
 button {

@@ -12,7 +12,6 @@ function Aqua() {
     setShowNewText((prevShowNewText) => !prevShowNewText);
   }
 
-
   useEffect(() => {
     async function loadImages() {
       const images = [];
@@ -59,7 +58,9 @@ function Aqua() {
                 in the development of operations and problem solving, providing
                 customer service.
               </p>
-              <button onClick={handleClick} className="lang-btn">🇧🇷</button>
+              <button onClick={handleClick} className="lang-btn">
+                <span>Português</span>
+              </button>
             </>
           ) : (
             <>
@@ -82,7 +83,9 @@ function Aqua() {
                 no desenvolvimento das operações e resoluções de problemas,
                 prestando um serviço de atendimento ao cliente.
               </p>
-              <button onClick={handleClick} className="lang-btn">🇺🇸</button>
+              <button onClick={handleClick} className="lang-btn">
+                <span>English</span>
+              </button>
             </>
           )}
 
