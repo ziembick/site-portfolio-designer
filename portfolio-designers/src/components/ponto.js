@@ -97,7 +97,7 @@ function PontoBank() {
                 hands-on the project
               </p>
               <button onClick={handleClick} className="lang-btn-ponto">
-                🇧🇷
+                <span>Português</span>	
               </button>
             </>
           ) : (
@@ -125,7 +125,7 @@ function PontoBank() {
                 coloquei a mão na massa.
               </p>
               <button onClick={handleClick} className="lang-btn-ponto">
-                🇺🇸
+              <span>English</span>	
               </button>
             </>
           )}

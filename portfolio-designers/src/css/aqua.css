@@ -140,7 +140,7 @@ button span:not(hover) {
   background: var(--clr );
 } */
 
-
+/* 
 .lang-btn-ponto {
   position: relative;
   left: 39%;
@@ -159,4 +159,4 @@ button span:not(hover) {
 .lang-btn-ponto:hover {
   cursor: pointer;
   background: var(--azul-hover);
-}
+} */
