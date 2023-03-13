@@ -1,0 +1,14 @@
+.page {
+  color: var(--branco);
+}
+
+.smile-404 {
+  width: 60rem;
+  height: 60rem;
+}
+
+.smile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
