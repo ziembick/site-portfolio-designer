@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import "../css/aqua.css";
 import Footer from "./footer";
 import ponto1 from "../img/ponto-bank-1.gif";
+import { Link } from "react-router-dom";
 
 function PontoBank() {
   const [images, setImages] = useState([]);
@@ -70,6 +71,9 @@ function PontoBank() {
     <>
       <section className="section__container">
         <Navbar />
+        <Link to="/" className="arrow-port">
+          ←
+        </Link>
         <img src={ponto1} alt="Acqua Lounge" className="aqua-img-1" />
         <div className="aqua__container">
           {showNewText ? (
