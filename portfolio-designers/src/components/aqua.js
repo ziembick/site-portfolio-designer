@@ -3,6 +3,7 @@ import aqua1 from "../img/aqua1.png";
 import Navbar from "./navbar";
 import "../css/aqua.css";
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 function Aqua() {
   const [images, setImages] = useState([]);
@@ -35,7 +36,11 @@ function Aqua() {
     <>
       <section className="section__container">
         <Navbar />
+        <Link to="/" className="arrow-port">
+          ←
+        </Link>
         <img src={aqua1} alt="Acqua Lounge" className="aqua-img-1" />
+
         <div className="aqua__container">
           {showNewText ? (
             <>
