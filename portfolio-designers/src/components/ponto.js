@@ -100,8 +100,11 @@ function PontoBank() {
                 was built in Egypt, and after observing some references i got my
                 hands-on the project
               </p>
-              <button onClick={handleClick} className="lang-btn-ponto">
-                <span>Português</span>	
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">Português</span>
               </button>
             </>
           ) : (
@@ -128,8 +131,11 @@ function PontoBank() {
                 Biblioteca de Alexandria e após observar algumas referências
                 coloquei a mão na massa.
               </p>
-              <button onClick={handleClick} className="lang-btn-ponto">
-              <span>English</span>	
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">English</span>
               </button>
             </>
           )}
