@@ -66,8 +66,11 @@ function Provu() {
                 art for the company's new office. I also did motion work and
                 editing and recording of internal and external videos..
               </p>
-              <button onClick={handleClick} className="lang-btn-provu">
-                <span>Português</span>
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">Português</span>
               </button>
             </>
           ) : (
@@ -94,8 +97,11 @@ function Provu() {
                 trabalhos de motion e edição e gravação de vídeos internos e
                 externos.
               </p>
-              <button onClick={handleClick} className="lang-btn-provu">
-                <span>English</span>
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">English</span>
               </button>
             </>
           )}
