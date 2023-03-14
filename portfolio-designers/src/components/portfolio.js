@@ -17,11 +17,7 @@ const Portfolio = () => {
     return (
       <div className="image-switcher">
         <img src={defaultImage} alt="Default" className="default-image" />
-        <img
-          src={alternateImage}
-          alt="Alternate"
-          className="alternate-image"
-        />
+        <img src={alternateImage} alt="Alternate" className="alternate-image" />
       </div>
     );
   };
@@ -32,12 +28,19 @@ const Portfolio = () => {
         <Navbar />
         <Link className="arrow-portfolio">←</Link>
         <section className="portfolio">
-          <ImageSwitcher defaultImage={aqua1} alternateImage={aqua2} />
-          <ImageSwitcher defaultImage={tucafe1} alternateImage={tucafe2} />
-          <ImageSwitcher defaultImage={provu1} alternateImage={provu2} />
-          <ImageSwitcher defaultImage={ponto1} alternateImage={ponto2} />
+          <Link>
+            <ImageSwitcher defaultImage={aqua1} alternateImage={aqua2} />
+          </Link>
+          <Link>
+            <ImageSwitcher defaultImage={tucafe1} alternateImage={tucafe2} />
+          </Link>
+          <Link>
+            <ImageSwitcher defaultImage={provu1} alternateImage={provu2} />
+          </Link>
+          <Link>
+            <ImageSwitcher defaultImage={ponto1} alternateImage={ponto2} />
+          </Link>
         </section>
-
       </section>
       <Footer />
     </>
