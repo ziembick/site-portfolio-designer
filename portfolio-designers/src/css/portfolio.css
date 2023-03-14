@@ -8,6 +8,81 @@
   margin-left: 28rem;
 }
 
+.image-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.default-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.alternate-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-switcher:hover .default-image {
+  opacity: 0;
+}
+
+.image-switcher:hover .alternate-image {
+  opacity: 1;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-switcher {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.default-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.alternate-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.image-switcher:hover .default-image {
+  opacity: 0;
+}
+
+.image-switcher:hover .alternate-image {
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------------------------- */ 
+
+
 /* .portfolio {
   position: relative;
   bottom: 20rem;
@@ -178,76 +253,3 @@
   opacity: 1;
 } */
 
-/* ----------------------------------------------------------------------------- */ 
-
-.image-switcher {
-  position: relative;
-  display: inline-block;
-}
-
-.default-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.alternate-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.image-switcher:hover .default-image {
-  opacity: 0;
-}
-
-.image-switcher:hover .alternate-image {
-  opacity: 1;
-}
-
-.portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.image-switcher {
-  position: relative;
-  display: inline-block;
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-}
-
-.default-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  width: 100%;
-  height: 100%;
-}
-
-.alternate-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  width: 100%;
-  height: 100%;
-}
-
-.image-switcher:hover .default-image {
-  opacity: 0;
-}
-
-.image-switcher:hover .alternate-image {
-  opacity: 1;
-}

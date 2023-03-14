@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
