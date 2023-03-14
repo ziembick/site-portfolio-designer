@@ -63,8 +63,11 @@ function Aqua() {
                 in the development of operations and problem solving, providing
                 customer service.
               </p>
-              <button onClick={handleClick} className="lang-btn">
-                <span>Português</span>
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">Português</span>
               </button>
             </>
           ) : (
@@ -88,8 +91,11 @@ function Aqua() {
                 no desenvolvimento das operações e resoluções de problemas,
                 prestando um serviço de atendimento ao cliente.
               </p>
-              <button onClick={handleClick} className="lang-btn">
-                <span>English</span>
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">English</span>
               </button>
             </>
           )}
