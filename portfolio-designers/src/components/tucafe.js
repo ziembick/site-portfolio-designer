@@ -66,63 +66,43 @@ function Tucafe() {
         </Link>
         <img src={tucafe1} alt="Acqua Lounge" className="aqua-img-1" />
         <div className="aqua__container">
-          {/* {showNewText ? (
+          {showNewText ? (
             <>
               <h2 className="aqua-h2">About the project</h2>
               <p className="aqua-p">
-                I went deep into the creation of the dot symbol that gives the
-                company its name, discovering that it was created in the 3rd
-                century BC and introduced by Aristophanes of Byzantium.
-                <br />
-                <br />
-                After this discovery of the creator, I decided to investigate
-                more about his life, Aristophanes was a lexicographer,
-                grammarian, humanist, philologist and Greek critic and succeeded
-                Eratosthenes as director of the Library of Alexandria when he
-                was sixty-two years old.
-                <br />
-                <br />
-                Reading more about the Library of Alexandria I discovered that
-                it was founded in the 3rd century BC, in the city of Alexandria,
-                which was part of the Macedonian empire. It was in operation for
-                six hundred years and was definitively destroyed between the
-                years 250 to 270. However, in 2002 a new Library of Alexandria
-                was built in Egypt, and after observing some references i got my
-                hands-on the project
+                The story of Tuca Café has its roots in the interior of São
+                Paulo, where Vilma, a bird enthusiast since childhood, was given
+                the nickname Tuca in school. Additionally, her love for coffee
+                inspired her to open her own coffee shop. Thus, Tuca Café was
+                born, the result of the union of these two passions: the bird
+                and the beverage.
               </p>
-              <button onClick={handleClick} className="lang-btn-ponto">
-                🇧🇷
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">Português</span>
               </button>
             </>
           ) : (
             <>
               <h2 className="aqua-h2">Sobre o projeto</h2>
               <p className="aqua-p">
-                Fui a fundo na criação do símbolo de ponto que da o nome a
-                empresa, descobrindo que o mesmo foi criado no século III A.C e
-                introduzida por Aristófanes de Bizâncio.
-                <br />
-                <br />
-                Após essa descoberta do criador, resolvi investigar mais sobre a
-                vida do mesmo, Aristófanes foi um lexicógrafo, gramático,
-                humanista, filólogo e crítico grego foi sucessor de Eratosthenes
-                como diretor da Biblioteca de Alexandria quando tinha sessenta e
-                dois anos.
-                <br />
-                <br />
-                Lendo mais sobre a Biblioteca de Alexandria descobri que ela foi
-                fundada no século III A.C., na cidade de Alexandria, que fazia
-                parte do império macedônico. Esteve em funcionamento por
-                seiscentos anos e foi destruída definitivamente entre os anos de
-                250 a 270. Porém em 2002 foi construída no Egito uma nova
-                Biblioteca de Alexandria e após observar algumas referências
-                coloquei a mão na massa.
+                A história do Tuca Café tem suas raízes no interior de São
+                Paulo, onde Vilma, uma apaixonada por aves desde a infância,
+                recebeu o apelido de Tuca na escola. Além disso, sua paixão pelo
+                café a inspirou a abrir sua própria cafeteria. Foi assim que
+                nasceu o Tuca Café, resultado da união dessas duas paixões: a
+                ave e a bebida.
               </p>
-              <button onClick={handleClick} className="lang-btn-ponto">
-                🇺🇸
+              <button onClick={handleClick} className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
+                </span>
+                <span className="button-text">English</span>
               </button>
             </>
-          )} */}
+          )}
 
           {images.map((image, index) => (
             <img
@@ -208,7 +188,6 @@ export default Tucafe;
 // }
 
 // export default PontoBank;
-
 
 // import React, { useState, useEffect } from "react";
 // import Navbar from "./navbar";
