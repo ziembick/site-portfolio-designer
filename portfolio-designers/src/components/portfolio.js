@@ -28,16 +28,16 @@ const Portfolio = () => {
         <Navbar />
         <Link className="arrow-portfolio">←</Link>
         <section className="portfolio">
-          <Link>
+          <Link to="/aqua">
             <ImageSwitcher defaultImage={aqua1} alternateImage={aqua2} />
           </Link>
-          <Link>
+          <Link to="/tuca-cafe">
             <ImageSwitcher defaultImage={tucafe1} alternateImage={tucafe2} />
           </Link>
-          <Link>
+          <Link to="/provu">
             <ImageSwitcher defaultImage={provu1} alternateImage={provu2} />
           </Link>
-          <Link>
+          <Link to="/ponto-bank">
             <ImageSwitcher defaultImage={ponto1} alternateImage={ponto2} />
           </Link>
         </section>

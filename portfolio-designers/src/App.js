@@ -24,7 +24,7 @@ function App() {
           </div>
         }
       />
-      <Route path="provu/*" element={<Provu />} />
+      <Route path="/provu/*" element={<Provu />} />
       <Route path="/aqua/*" element={<Aqua />} />
       <Route path="/portfolio/*" element={<Porftolio />} />
       <Route path="/contato/*" element={<Contato />} />
