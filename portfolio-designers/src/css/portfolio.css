@@ -38,19 +38,24 @@
 }
 
 .portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 0.1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px;
+  margin: 20px;
 }
 
 .image-switcher {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
+  left: 30rem;
+  bottom: 20rem;
   margin: 20px;
-  width: 200px;
-  height: 200px;
+  width: 50rem;
+  height: 30rem;
 }
+
+
 
 .default-image {
   position: absolute;
