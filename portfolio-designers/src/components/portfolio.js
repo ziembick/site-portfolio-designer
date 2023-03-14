@@ -37,8 +37,9 @@ const Portfolio = () => {
           <ImageSwitcher defaultImage={provu1} alternateImage={provu2} />
           <ImageSwitcher defaultImage={ponto1} alternateImage={ponto2} />
         </section>
-        <Footer />
+
       </section>
+      <Footer />
     </>
   );
 };
