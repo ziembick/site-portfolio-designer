@@ -12,6 +12,7 @@ import Aqua from "./components/aqua";
 import Provu from "./components/provu";
 import Ydent from "./components/ydent";
 import PageNotFound from "./components/pageNotFound";
+import Sunergy from "./components/sunergy";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Route path="/ponto-bank" element={<PontoBank />} />
       <Route path="/tuca-cafe" element={<Tucafe />} />
       <Route path="/ydent" element={<Ydent />}/>
+      <Route path="/sunergy" element={<Sunergy />}/>
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/*" element={<PageNotFound />}/>
     </Routes>
