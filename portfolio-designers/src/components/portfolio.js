@@ -9,6 +9,8 @@ import provu1 from "../img/provu1.png";
 import provu2 from "../img/provu3.png";
 import ydent1 from "../img/ydent1.gif";
 import ydent2 from "../img/ydent2.png";
+import sunergy1 from "../img/sunergy.png";
+import sunergy2 from "../img/sunergy2.png";
 import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
@@ -44,6 +46,9 @@ const Portfolio = () => {
           </Link>
           <Link to="/ydent">
             <ImageSwitcher defaultImage={ydent1} alternateImage={ydent2}/>
+          </Link>
+          <Link>
+            <ImageSwitcher defaultImage={sunergy1} alternateImage={sunergy2}/>
           </Link>
         </section>
       </section>
