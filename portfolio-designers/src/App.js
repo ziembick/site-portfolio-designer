@@ -10,6 +10,7 @@ import Tucafe from "./components/tucafe";
 import Sobre from "./components/sobre";
 import Aqua from "./components/aqua";
 import Provu from "./components/provu";
+import Ydent from "./components/ydent";
 import PageNotFound from "./components/pageNotFound";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Route path="/header" element={<Header />} />
       <Route path="/ponto-bank" element={<PontoBank />} />
       <Route path="/tuca-cafe" element={<Tucafe />} />
+      <Route path="/ydent" element={<Ydent />}/>
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/*" element={<PageNotFound />}/>
     </Routes>

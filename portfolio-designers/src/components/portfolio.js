@@ -42,7 +42,7 @@ const Portfolio = () => {
           <Link to="/ponto-bank">
             <ImageSwitcher defaultImage={ponto1} alternateImage={ponto2} />
           </Link>
-          <Link>
+          <Link to="/ydent">
             <ImageSwitcher defaultImage={ydent1} alternateImage={ydent2}/>
           </Link>
         </section>
