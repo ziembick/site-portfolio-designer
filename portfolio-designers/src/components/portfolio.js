@@ -7,6 +7,8 @@ import aqua1 from "../img/aqua1.png";
 import aqua2 from "../img/aqua2.png";
 import provu1 from "../img/provu1.png";
 import provu2 from "../img/provu3.png";
+import ydent1 from "../img/ydent1.gif";
+import ydent2 from "../img/ydent2.png";
 import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
