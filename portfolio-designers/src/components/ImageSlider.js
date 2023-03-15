@@ -52,15 +52,17 @@ const ImageSlider = ({ slides }) => {
       <div className="rightArrowStyles" onClick={goToNext}>
         ❱
       </div>
-      <div
-        className="slideStyles"
-        style={slideStyles}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        {isHovered && (
-          <div className="textOverlay">{slides[currentIndex].title}</div>
-        )}
+      <div className="slideWrapper">
+        <div
+          className="slideStyles"
+          style={slideStyles}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          {isHovered && (
+            <div className="textOverlay">{slides[currentIndex].title}</div>
+          )}
+        </div>
       </div>
       <div className="dotsContainerStyle">
         {slides.map((slides, slideIndex) => (

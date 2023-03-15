@@ -25,6 +25,9 @@
   cursor: pointer;
 }
 
+
+
+
 .slideStyles {
   position: relative;
   bottom: 4rem;
@@ -34,13 +37,12 @@
   border-radius: 12px;
   background-position: center;
   background-size: cover;
-  /* opacity: 1;
-  transition: opacity 0.3 ease; */
+  transition: transform 0.5s ease;
 }
 
-.slideStyles:hover {
-  filter: brightness(70%);
-}
+/* .slideStyles:hover {
+  transform: scale(1.1);
+} */
 
 .dotsContainerStyle {
   display: flex;
@@ -86,9 +88,9 @@
   transition: transform 800ms ease-in-out;
 } */
 
-.slideStyles:hover .textOverlay {
+/* .slideStyles:hover .textOverlay {
   transform: translateY(0);
-}
+} */
 
 /* .slideStyles:hover::before {
   content: "Tuca Cafe";
