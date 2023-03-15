@@ -9,10 +9,10 @@ import "../css/imageslider.css";
 function Header() {
 
   const slides = [
-    { url: "http://localhost:3000/tucacafe1.png", title: "Tuca Cafe" },
-    { url: "http://localhost:3000/ponto-bank-1.png", title: "Ponto Bank" },
-    { url: "http://localhost:3000/provu.png", title: "Provu" },
-    { url: "http://localhost:3000/aqua-lounge.png", title: "Aqua Lounge" },
+    { url: "http://localhost:3000/tucacafe1.png", title: "" },
+    { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
+    { url: "http://localhost:3000/provu.png", title: "" },
+    { url: "http://localhost:3000/aqua-lounge.png", title: "" },
   ];
 
   return (
