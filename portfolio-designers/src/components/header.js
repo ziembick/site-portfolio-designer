@@ -13,6 +13,8 @@ function Header() {
     { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
     { url: "http://localhost:3000/provu.png", title: "" },
     { url: "http://localhost:3000/aqua-lounge.png", title: "" },
+    { url: "http://localhost:3000/ydent.png", title: "" },
+    { url: "http://localhost:3000/sunergy.png", title: "" },
   ];
 
   return (
