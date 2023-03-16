@@ -4,6 +4,7 @@ import "../css/aqua.css";
 import Footer from "./footer";
 import ponto1 from "../img/ponto-bank-1.gif";
 import { Link } from "react-router-dom";
+import { Fade } from "react-reveal";
 
 function PontoBank() {
   const [images, setImages] = useState([]);
@@ -141,12 +142,14 @@ function PontoBank() {
           )}
 
           {images.map((image, index) => (
-            <img
-              key={index}
-              src={image.src}
-              alt={image.alt}
-              className={image.className}
-            />
+            <Fade top distance="1%" duration={1100}>
+              <img
+                key={index}
+                src={image.src}
+                alt={image.alt}
+                className={image.className}
+              />
+            </Fade>
           ))}
         </div>
       </section>
