@@ -5,6 +5,7 @@ import "../css/aqua.css";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+// npm i --save-dev @types/react-reveal
 
 function Aqua() {
   const [images, setImages] = useState([]);

@@ -4,6 +4,8 @@ import "../css/aqua.css";
 import Footer from "./footer";
 import tucafe1 from "../img/tucacafe1.png";
 import { Link } from "react-router-dom";
+import { Fade } from "react-reveal";
+
 
 function Tucafe() {
   const [images, setImages] = useState([]);
@@ -105,12 +107,14 @@ function Tucafe() {
           )}
 
           {images.map((image, index) => (
+            <Fade>
             <img
               key={index}
               src={image.src}
               alt={image.alt}
               className={image.className}
             />
+            </Fade>
           ))}
         </div>
       </section>
