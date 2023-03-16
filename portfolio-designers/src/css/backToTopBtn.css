@@ -1,8 +1,10 @@
 .btn_all {
     position: fixed;
     bottom: 70px;
-    right: 25px;
+    right: 19px;
     height: 70px;
+    font-family: 'Roboto';
+    font-size: 1rem;
 }
 
 
