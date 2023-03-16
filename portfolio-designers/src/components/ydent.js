@@ -39,7 +39,7 @@ function Ydent() {
         <Link to="/" className="arrow-port">
           ←
         </Link>
-        <img src={ydent1} alt="Acqua Lounge" className="aqua-img-1" />
+        <img src={ydent1} alt="Ydent" className="aqua-img-1" />
 
         <div className="aqua__container">
           {showNewText ? (

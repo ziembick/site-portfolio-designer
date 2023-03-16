@@ -44,11 +44,17 @@ function Sunergy() {
         <div className="aqua__container">
           {showNewText ? (
             <>
-              <h2 className="aqua-h2">About Ydent</h2>
+              <h2 className="aqua-h2">About Sunergy</h2>
               <p className="aqua-p">
-                Ydent dentistry was founded in 2021 by Dr. Ana Silva, with the
-                objective of offering quality dental treatments, with excellence
-                and professional ethics.
+                Sunergy was created in 2015 by a group of engineers looking for
+                innovative and designed solutions to meet the energy needs of
+                small cities. After years of working on developing clean energy
+                technologies, they decided to create their own company to offer
+                these solutions to the market. Over time, the company grew and
+                became a benchmark in providing sustainable energy to cities
+                across the country. Today, Sunergy has an experienced and highly
+                qualified team, which constantly seeks new technologies and
+                solutions to meet the demands of its customers.
               </p>
               <button onClick={handleClick} className="learn-more">
                 <span className="circle" aria-hidden="true">
@@ -59,11 +65,19 @@ function Sunergy() {
             </>
           ) : (
             <>
-              <h2 className="aqua-h2">Sobre a Ydent</h2>
+              <h2 className="aqua-h2">Sobre a Sunergy</h2>
               <p className="aqua-p">
-                A Ydent odontologia foi fundada em 2021 pela Dra. Ana Silva, com
-                o objetivo de oferecer tratamentos odontológicos de qualidade,
-                com excelência e ética profissional.
+                Sunergy foi criada em 2015 por um grupo de engenheiros que
+                buscavam soluções inovadoras e sustentáveis para suprir as
+                necessidades energéticas das pequenas cidades. Depois de anos
+                trabalhando no desenvolvimento de tecnologias de energia limpa,
+                eles decidiram criar sua própria empresa para oferecer essas
+                soluções ao mercado. Com o tempo, a empresa cresceu e se tornou
+                referência no fornecimento de energia sustentável para cidades
+                em todo o país. Hoje, Sunergy conta com uma equipe experiente e
+                altamente qualificada, que busca constantemente novas
+                tecnologias e soluções para atender às demandas de seus
+                clientes.
               </p>
               <button onClick={handleClick} className="learn-more">
                 <span className="circle" aria-hidden="true">
