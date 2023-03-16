@@ -5,6 +5,7 @@ import Footer from "./footer";
 import provu1 from "../img/provu1.png";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import BackToTopBtn from "./backToTopButton";
 
 function Provu() {
   const [images, setImages] = useState([]);
@@ -119,6 +120,7 @@ function Provu() {
           ))}
         </div>
       </section>
+      <BackToTopBtn />
       <Footer />
     </>
   );
