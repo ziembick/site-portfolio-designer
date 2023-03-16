@@ -107,7 +107,7 @@ function Tucafe() {
           )}
 
           {images.map((image, index) => (
-            <Fade>
+            <Fade top distance="1%" duration={1100}>
             <img
               key={index}
               src={image.src}
