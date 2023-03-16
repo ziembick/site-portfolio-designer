@@ -5,6 +5,7 @@ import Footer from "./footer";
 import ponto1 from "../img/ponto-bank-1.gif";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import BackToTopBtn from "./backToTopButton";
 
 function PontoBank() {
   const [images, setImages] = useState([]);
@@ -153,6 +154,7 @@ function PontoBank() {
           ))}
         </div>
       </section>
+      <BackToTopBtn />
       <Footer />
     </>
   );
