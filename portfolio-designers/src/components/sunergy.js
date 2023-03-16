@@ -17,13 +17,13 @@ function Sunergy() {
     async function loadImages() {
       const images = [];
       const files = [
-        { name: "sunergy2.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "sunergy3.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "sunergy4.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "sunergy5.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "sunergy6.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "sunergy7.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "sunergy8.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy2.png", alt: "Sunergy", className: "fotos-aqua" },
+        { name: "sunergy3.png", alt: "Sunergy", className: "fotos-aqua" },
+        { name: "sunergy4.png", alt: "Sunergy", className: "fotos-aqua" },
+        { name: "sunergy5.png", alt: "Sunergy", className: "fotos-aqua" },
+        { name: "sunergy6.png", alt: "Sunergy", className: "fotos-aqua" },
+        { name: "sunergy7.png", alt: "Sunergy", className: "fotos-aqua" },
+        { name: "sunergy8.png", alt: "Sunergy", className: "fotos-aqua" },
       ];
       for (const file of files) {
         const module = await import(`../img/${file.name}`);
@@ -41,7 +41,7 @@ function Sunergy() {
         <Link to="/" className="arrow-port">
           ←
         </Link>
-        <img src={sunergy1} alt="Acqua Lounge" className="aqua-img-1" />
+        <img src={sunergy1} alt="Sunergy" className="aqua-img-1" />
 
         <div className="aqua__container">
           {showNewText ? (
