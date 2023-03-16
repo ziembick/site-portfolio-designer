@@ -5,6 +5,7 @@ import "../css/aqua.css";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import BackToTopBtn from "./backToTopButton";
 
 function Ydent() {
   const [images, setImages] = useState([]);
@@ -87,6 +88,7 @@ function Ydent() {
           ))}
         </div>
       </section>
+      <BackToTopBtn />
       <Footer />
     </>
   );
