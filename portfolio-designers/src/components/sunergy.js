@@ -17,11 +17,13 @@ function Sunergy() {
     async function loadImages() {
       const images = [];
       const files = [
-        { name: "ydent2.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent3.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent4.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent5.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent6.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy2.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy3.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy4.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy5.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy6.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy7.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "sunergy8.png", alt: "Acqua Lounge", className: "fotos-aqua" },
       ];
       for (const file of files) {
         const module = await import(`../img/${file.name}`);
