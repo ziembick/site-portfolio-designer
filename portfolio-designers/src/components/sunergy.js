@@ -5,6 +5,7 @@ import "../css/aqua.css";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import BackToTopBtn from "./backToTopButton";
 
 function Sunergy() {
   const [images, setImages] = useState([]);
@@ -102,6 +103,7 @@ function Sunergy() {
             </Fade>
           ))}
         </div>
+        <BackToTopBtn />
       </section>
       <Footer />
     </>
