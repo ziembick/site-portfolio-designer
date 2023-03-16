@@ -5,6 +5,7 @@ import "../css/aqua.css";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import BackToTopBtn from "./backToTopButton";
 // npm i --save-dev @types/react-reveal
 
 function Aqua() {
@@ -114,6 +115,7 @@ function Aqua() {
             </Fade>
           ))}
         </div>
+        <BackToTopBtn />
       </section>
       <Footer />
     </>

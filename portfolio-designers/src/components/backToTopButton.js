@@ -6,18 +6,41 @@ function BackToTopBtn() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        setBackToTopBtn(true)
+      if (window.scrollY > 500) {
+        setBackToTopBtn(true);
       } else {
-        setBackToTopBtn(false)
+        setBackToTopBtn(false);
       }
-    })
-  }, [])
+    });
+  }, []);
 
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div>
-      <button></button>
+      {backToTopBtn && (
+        <button
+          style={{
+            position: "fixed",
+            bottom: "50px",
+            right: "50px",
+            height: "50px",
+            width: "50px",
+            fontSize: "50px",
+            color: "white",
+          }}
+          onClick={scrollUp}
+        >
+          ^
+        </button>
+      )}
     </div>
   );
 }
+
+export default BackToTopBtn;
