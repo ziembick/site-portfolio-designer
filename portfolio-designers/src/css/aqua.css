@@ -1,7 +1,7 @@
 .aqua-img-1 {
   width: 80%;
   position: relative;
-  left: 10%;
+  left: 15%;
   bottom: 20rem;
 }
 
@@ -34,6 +34,7 @@
 
 .aqua__container {
   position: relative;
+  left: 9rem;
   bottom: 17rem;
   display: flex;
   justify-content: center;
@@ -51,27 +52,6 @@
   padding-bottom: 1rem;
 }
 
-/* .lang-btn {
-  position: relative;
-  left: 39%;
-  bottom: 29rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  background-color: var(--azul);
-  border-radius: 12px;
-  font-family: "Roboto";
-  font-size: 16px;
-  color: var(--branco);
-  cursor: pointer;
-  padding: 1rem;
-}
-
-.lang-btn:hover {
-  cursor: pointer;
-  background: var(--azul-hover);
-} */
-
-
 button {
   position: relative;
   display: inline-block;
@@ -86,14 +66,14 @@ button {
   font-family: inherit;
   margin-bottom: 5.5rem;
   margin-top: 2rem;
- }
- 
- button.learn-more {
+}
+
+button.learn-more {
   width: 15rem;
   height: auto;
- }
- 
- button.learn-more .circle {
+}
+
+button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -102,26 +82,26 @@ button {
   height: 3rem;
   background: #282936;
   border-radius: 1.625rem;
- }
- 
- button.learn-more .circle .icon {
+}
+
+button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
   background: #fff;
- }
- 
- button.learn-more .circle .icon.arrow {
+}
+
+button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
- }
- 
- button.learn-more .circle .icon.arrow::before {
+}
+
+button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.29rem;
@@ -131,9 +111,9 @@ button {
   border-top: 0.125rem solid #fff;
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
- }
- 
- button.learn-more .button-text {
+}
+
+button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: -0.6rem;
@@ -146,23 +126,20 @@ button {
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
-  
- }
- 
- button:hover .circle {
+}
+
+button:hover .circle {
   width: 100%;
- }
- 
- button:hover .circle .icon.arrow {
+}
+
+button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
- }
- 
- button:hover .button-text {
+}
+
+button:hover .button-text {
   color: #fff;
- }
-
-
+}
 
 /* .lang-btn-provu {
   position: relative;
@@ -206,7 +183,6 @@ button {
   cursor: pointer;
   background: var(--azul-hover);
 } */
-
 
 .arrow-port {
   color: var(--branco);
