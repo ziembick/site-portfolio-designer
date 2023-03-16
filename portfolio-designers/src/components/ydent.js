@@ -17,11 +17,11 @@ function Ydent() {
     async function loadImages() {
       const images = [];
       const files = [
-        { name: "ydent2.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent3.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent4.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent5.png", alt: "Acqua Lounge", className: "fotos-aqua" },
-        { name: "ydent6.png", alt: "Acqua Lounge", className: "fotos-aqua" },
+        { name: "ydent2.png", alt: "Ydent", className: "fotos-aqua" },
+        { name: "ydent3.png", alt: "Ydent", className: "fotos-aqua" },
+        { name: "ydent4.png", alt: "Ydent", className: "fotos-aqua" },
+        { name: "ydent5.png", alt: "Ydent", className: "fotos-aqua" },
+        { name: "ydent6.png", alt: "Ydent", className: "fotos-aqua" },
       ];
       for (const file of files) {
         const module = await import(`../img/${file.name}`);
