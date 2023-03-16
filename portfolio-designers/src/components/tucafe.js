@@ -5,6 +5,7 @@ import Footer from "./footer";
 import tucafe1 from "../img/tucacafe1.png";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
+import BackToTopBtn from "./backToTopButton";
 
 
 function Tucafe() {
@@ -117,6 +118,7 @@ function Tucafe() {
             </Fade>
           ))}
         </div>
+        <BackToTopBtn />
       </section>
       <Footer />
     </>
