@@ -40,7 +40,6 @@ function Aqua() {
         <Link to="/" className="arrow-port">
           ←
         </Link>
-
         <img src={aqua1} alt="Acqua Lounge" className="aqua-img-1" />
 
         <div className="aqua__container">
@@ -101,16 +100,17 @@ function Aqua() {
               </button>
             </>
           )}
-          <Fade>
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image.src}
-                alt={image.alt}
-                className={image.className}
-              />
-            ))}
-          </Fade>
+
+          {images.map((image, index) => (
+            <Fade>
+            <img
+              key={index}
+              src={image.src}
+              alt={image.alt}
+              className={image.className}
+            />
+            </Fade>
+          ))}
         </div>
       </section>
       <Footer />
