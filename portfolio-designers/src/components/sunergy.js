@@ -4,6 +4,7 @@ import Navbar from "./navbar";
 import "../css/aqua.css";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import { Fade } from "react-reveal";
 
 function Sunergy() {
   const [images, setImages] = useState([]);
@@ -91,12 +92,14 @@ function Sunergy() {
           )}
 
           {images.map((image, index) => (
-            <img
-              key={index}
-              src={image.src}
-              alt={image.alt}
-              className={image.className}
-            />
+            <Fade top distance="1%" duration={1100}>
+              <img
+                key={index}
+                src={image.src}
+                alt={image.alt}
+                className={image.className}
+              />
+            </Fade>
           ))}
         </div>
       </section>
