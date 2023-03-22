@@ -15,15 +15,17 @@ import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
-import Loading from "./loading";
+import loader from "../img/loader-gif.gif";
+import "../css/loading.css";
 
 const Portfolio = () => {
-  const [removeLoading, setRemoveLoading] = useState(false)
 
+  const [loading, setLoading] = useState(false);
 
   const ImageSwitcher = ({ defaultImage, alternateImage }) => {
     return (
       <div className="image-switcher">
+        {loading && <img src={loader} alt="Loading" className="loader"/>}
         <img src={defaultImage} alt="Default" className="default-image" />
         <img src={alternateImage} alt="Alternate" className="alternate-image" />
       </div>
@@ -34,7 +36,9 @@ const Portfolio = () => {
     <>
       <section className="section__container">
         <Navbar />
-        <Link className="arrow-portfolio" to="/">←</Link>
+        <Link className="arrow-portfolio" to="/">
+          ←
+        </Link>
         <section className="portfolio">
           <Link to="/aqua">
             <ImageSwitcher defaultImage={aqua1} alternateImage={aqua2} />
@@ -49,10 +53,10 @@ const Portfolio = () => {
             <ImageSwitcher defaultImage={ponto1} alternateImage={ponto2} />
           </Link>
           <Link to="/ydent">
-            <ImageSwitcher defaultImage={ydent1} alternateImage={ydent2}/>
+            <ImageSwitcher defaultImage={ydent1} alternateImage={ydent2} />
           </Link>
           <Link to="/sunergy">
-            <ImageSwitcher defaultImage={sunergy1} alternateImage={sunergy2}/>
+            <ImageSwitcher defaultImage={sunergy1} alternateImage={sunergy2} />
           </Link>
         </section>
       </section>
