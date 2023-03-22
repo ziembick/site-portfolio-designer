@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
@@ -18,6 +18,9 @@ import { Link } from "react-router-dom";
 import Loading from "./loading";
 
 const Portfolio = () => {
+  const [removeLoading, setRemoveLoading] = useState(false)
+
+
   const ImageSwitcher = ({ defaultImage, alternateImage }) => {
     return (
       <div className="image-switcher">
