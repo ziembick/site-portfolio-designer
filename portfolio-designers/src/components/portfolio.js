@@ -15,6 +15,7 @@ import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import Loading from "./loading";
 
 const Portfolio = () => {
   const ImageSwitcher = ({ defaultImage, alternateImage }) => {
@@ -30,7 +31,7 @@ const Portfolio = () => {
     <>
       <section className="section__container">
         <Navbar />
-        <Link className="arrow-portfolio">←</Link>
+        <Link className="arrow-portfolio" to="/">←</Link>
         <section className="portfolio">
           <Link to="/aqua">
             <ImageSwitcher defaultImage={aqua1} alternateImage={aqua2} />
