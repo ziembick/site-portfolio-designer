@@ -15,7 +15,7 @@ body {
 li {
   list-style: none;
 }
-.nav__link {
+/* .nav__link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-decoration: none;
@@ -32,8 +32,40 @@ li {
   height: 3px;
   width: 15px;
   background-color: white;
+} */
+.nav__link {
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  right: 1.5rem;
+  color: var(--azul);
+  cursor: pointer;
+  display: flex;
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  padding: 1rem;
 }
 
+.nav__link:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 0;
+}
+
+.nav__link:hover:before {
+  background-color: #fff;
+  width: 3rem;
+}
 
 .nav__menu {
   display: flex;
@@ -66,8 +98,6 @@ li {
   width: 50px;
   height: 100px;
 }
-
-
 
 /* img {
   transition: background-color 0.5s ease;
