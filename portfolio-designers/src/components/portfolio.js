@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import tucafe1 from "../img/tucacafe1.png";
 import tucafe2 from "../img/tuca-cafe-2.gif";
 import ponto1 from "../img/ponto-bank-1.gif";
@@ -15,17 +15,11 @@ import "../css/portfolio.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
-import loader from "../img/loader-gif.gif";
-import "../css/loading.css";
 
 const Portfolio = () => {
-
-  const [loading, setLoading] = useState(false);
-
   const ImageSwitcher = ({ defaultImage, alternateImage }) => {
     return (
       <div className="image-switcher">
-        {loading && <img src={loader} alt="Loading" className="loader"/>}
         <img src={defaultImage} alt="Default" className="default-image" />
         <img src={alternateImage} alt="Alternate" className="alternate-image" />
       </div>
