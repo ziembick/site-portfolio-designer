@@ -37,12 +37,12 @@ li {
   align-items: center;
   background-color: transparent;
   position: relative;
-  right: 1.5rem;
+  right: 0.5rem;
   color: var(--azul);
   cursor: pointer;
   display: flex;
   font-family: 'Roboto';
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.5;
   text-decoration: none;
