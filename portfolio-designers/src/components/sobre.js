@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
 import "../css/sobre.css";
-import Perfil from "../img/perfil.svg";
 import { Link } from "react-router-dom";
 
 function Sobre() {
