@@ -11,13 +11,16 @@
   text-align: justify;  
 }
 
+
+
 .title {
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 5rem;
   color: var(--azul);
 }
 
-.title__description{
+.title__description {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   color: var(--branco);

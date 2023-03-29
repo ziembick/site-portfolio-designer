@@ -22,7 +22,7 @@ function Header() {
       <section className="section__container">
         <Navbar />
         <div className="section__container-text-wrapper">
-          <h1 className="section__container-text-silvio">
+          <h1 className="section__container-text-silvio2">
             <Typical
               loop={Infinity}
               steps={[

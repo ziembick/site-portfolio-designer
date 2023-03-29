@@ -41,7 +41,6 @@ function Sobre() {
             </h2>
           </div>
         </div>
-        {/* <img src={Perfil} alt="Foto de Perfil" className="foto-perfil" /> */}
       </section>
     </>
   );
