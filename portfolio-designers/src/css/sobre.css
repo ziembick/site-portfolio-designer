@@ -10,13 +10,13 @@
 }
 
 .title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 5rem;
   color: var(--azul);
 }
 
 .title__description{
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   color: var(--branco);
   font-size: 16px;
