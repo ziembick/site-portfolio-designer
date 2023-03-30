@@ -111,8 +111,8 @@ img:hover {
     display: block;
     cursor: pointer;
     position: relative;
-    left: 2rem;
-    bottom: 10rem;
+    right: 0;
+    bottom: 22rem;
   }
   .nav__menu {
     position: fixed;
