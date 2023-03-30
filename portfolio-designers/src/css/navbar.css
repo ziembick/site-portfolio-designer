@@ -41,7 +41,7 @@ li {
   color: var(--azul);
   cursor: pointer;
   display: flex;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.5;
@@ -110,17 +110,28 @@ img:hover {
   .nav__toggler {
     display: block;
     cursor: pointer;
+    position: relative;
+    right: 8rem;
+    bottom: 22rem;
   }
   .nav__menu {
     position: fixed;
-    top: 7vh;
+    top: 0;
     right: 0;
     height: 93vh;
     width: 50vw;
-    background: #000;
+    background: white;
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+  }
+
+  .nav__logo {
+    position: relative;
+    left: 4.5rem;
+    bottom: 5rem;
+    width: 90px;
+    height: 140px;
   }
 }
 /* Active Class */
