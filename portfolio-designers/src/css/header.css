@@ -115,8 +115,42 @@ h1 {
 @media screen and (max-width: 768px) {
   .section__container-text-wrapper {
     position: relative;
-    bottom: 19rem;
-    margin-left: 55rem;
+    bottom: 1rem;
+    margin-left: 0.5rem;
     font-family: "Roboto", sans-serif;
   }
+
+  .section__container-text-silvio {
+    /* position: relative;
+    bottom: 19rem;
+    left: 52.8rem; */
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+  }
+  .section__container-text-silvio2 {
+    /* position: relative;
+    bottom: 19rem;
+    left: 52.8rem; */
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
+
+  .section__container {
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
 }
