@@ -8,22 +8,20 @@
 }
 
 :root {
-  --azul: #10659E;
+  --azul: #10659e;
   --azul-hover: #03263d;
   --branco: #fff;
 }
-
 
 .exp {
   color: var(--azul);
 }
 
-
 .section__container-text-wrapper {
   position: relative;
   bottom: 19rem;
   margin-left: 55rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .section__container-text-silvio {
@@ -31,7 +29,7 @@
   bottom: 19rem;
   left: 52.8rem; */
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: white;
@@ -41,7 +39,7 @@
   bottom: 19rem;
   left: 52.8rem; */
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 40px;
   color: white;
@@ -51,7 +49,7 @@
   /* position: relative;
   bottom: 19rem;
   left: 52.9rem; */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin: 0;
   color: var(--azul);
@@ -67,7 +65,6 @@
   padding: 10rem;
 }
 
-
 h1 {
   line-height: 1.5;
 }
@@ -77,7 +74,6 @@ h1 {
   top: 1rem;
   left: 80rem;
 }
-
 
 .section__container-ig_logo {
   width: 20px;
@@ -116,3 +112,11 @@ h1 {
   height: 800px;
 }
 
+@media screen and (max-width: 768px) {
+  .section__container-text-wrapper {
+    position: relative;
+    bottom: 19rem;
+    margin-left: 55rem;
+    font-family: "Roboto", sans-serif;
+  }
+}
