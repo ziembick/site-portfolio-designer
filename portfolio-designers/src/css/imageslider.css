@@ -25,9 +25,6 @@
   cursor: pointer;
 }
 
-
-
-
 .slideStyles {
   position: relative;
   bottom: 4rem;
@@ -119,3 +116,17 @@
 .slideStyles:hover::before {
   opacity: 1;
 } */
+
+@media screen and (max-width: 768px) {
+  /* .slideWrapper {
+
+  } */
+
+  .containerStyle {
+    width: 10px;
+    height: 400px;
+    /* margin: 0 auto; */
+    position: relative;
+    top: -30px;
+  }
+}
