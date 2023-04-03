@@ -4,19 +4,20 @@ import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
 import tucafe from "../img/tucacafe1.png";
+import ponto from "../img/ponto-bank-1.gif";
+import { Fade } from "react-reveal";
 // import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
 
-
 function Header() {
-  const slides = [
-    { url: "http://localhost:3000/tucacafe1.png", title: "" },
-    { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
-    { url: "http://localhost:3000/provu.png", title: "" },
-    { url: "http://localhost:3000/aqua-lounge.png", title: "" },
-    { url: "http://localhost:3000/ydent.png", title: "" },
-    { url: "http://localhost:3000/sunergy.png", title: "" },
-  ];
+  // const slides = [
+  //   { url: "http://localhost:3000/tucacafe1.png", title: "" },
+  //   { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
+  //   { url: "http://localhost:3000/provu.png", title: "" },
+  //   { url: "http://localhost:3000/aqua-lounge.png", title: "" },
+  //   { url: "http://localhost:3000/ydent.png", title: "" },
+  //   { url: "http://localhost:3000/sunergy.png", title: "" },
+  // ];
 
   return (
     <>
@@ -48,7 +49,9 @@ function Header() {
         </div>
       </section>
       <div className="background-container">
-        <img src={tucafe} alt="Tuca Cafe Logo" />
+        <div className="images-header">
+          <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
+        </div>
         {/* <div className="containerStyle">
           <ImageSlider slides={slides} />
         </div> */}

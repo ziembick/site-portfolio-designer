@@ -112,6 +112,20 @@ h1 {
   height: 800px;
 }
 
+.tucafe-img-header {
+  width: 100rem;
+}
+
+.images-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 0.1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px;
+  bottom: 4rem;
+}
+
+
 @media screen and (max-width: 768px) {
   .section__container-text-wrapper {
     position: relative;
