@@ -108,20 +108,25 @@ h1 {
 }
 
 .background-container {
-  background-color: white;
-  height: 800px;
+  background-color: rgb(179, 174, 174);
+  height: 2000px;
 }
 
-.tucafe-img-header {
-  width: 100rem;
+.tucafe-img-header,
+.ponto-img-header,
+.aqua-img-header {
+  width: 90rem;
 }
 
-.images-header {
+.images-header,
+.images-header2 {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 0.1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1px;
+  justify-content: center;
+  align-items: center;
   bottom: 4rem;
 }
 

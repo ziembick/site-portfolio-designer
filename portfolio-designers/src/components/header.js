@@ -3,8 +3,9 @@ import "@fontsource/roboto";
 import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
-import tucafe from "../img/tucacafe1.png";
+import tucafe from "../img/tuca-cafe-2.gif";
 import ponto from "../img/ponto-bank-1.gif";
+import aqua from "../img/aqua1.png";
 import { Fade } from "react-reveal";
 // import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
@@ -51,6 +52,8 @@ function Header() {
       <div className="background-container">
         <div className="images-header">
           <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
+          <img src={ponto} alt="Ponto Bank" className="ponto-img-header"/>
+          <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
         </div>
         {/* <div className="containerStyle">
           <ImageSlider slides={slides} />
