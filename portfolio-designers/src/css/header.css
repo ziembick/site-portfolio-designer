@@ -109,7 +109,7 @@ h1 {
 
 .background-container {
   background-color: rgb(179, 174, 174);
-  height: 2000px;
+  height: 170rem;
 }
 
 .tucafe-img-header,
@@ -133,7 +133,7 @@ h1 {
   gap: 9px;
   justify-content: center;
   align-items: center;
-  bottom: 4rem;
+  bottom: 9rem;
 }
 
 
