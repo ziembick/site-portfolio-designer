@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "@fontsource/roboto";
 import "../css/header.css";
 import Navbar from "./navbar";
@@ -14,6 +14,40 @@ import { Fade } from "react-reveal";
 import "../css/imageslider.css";
 
 function Header() {
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    async function loadImages() {
+      const images = [];
+      const files = [
+        {
+          name: "tuca-cafe-2.gif",
+          alt: "Tuca Café",
+          className: "tucafe-img-header",
+        },
+        {
+          name: "ponto-bank-1.gif",
+          alt: "Ponto Bank",
+          className: "ponto-img-header",
+        },
+        { name: "aqua1.png", alt: "Aqua Lounge", className: "aqua-img-header" },
+        { name: "provu1.png", alt: "Provu", className: "provu-img-header" },
+        { name: "ydent1.gif", alt: "Ydent", className: "ydent-img-header" },
+        {
+          name: "sunergy.png",
+          alt: "Sunergy",
+          className: "sunergy-img-header",
+        },
+      ];
+      for (const file of files) {
+        const module = await import(`../img/${file.name}`);
+        images.push({ ...file, src: module.default });
+      }
+      setImages(images);
+    }
+    loadImages();
+  }, []);
+
   // const slides = [
   //   { url: "http://localhost:3000/tucacafe1.png", title: "" },
   //   { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
@@ -55,12 +89,12 @@ function Header() {
       <div className="background-container">
         <div className="images-header">
           <Fade top distance="1%" duration={1100}>
-          <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
-          <img src={ponto} alt="Ponto Bank" className="ponto-img-header"/>
-          <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
-          <img src={provu} alt="Provu" className="provu-img-header"/>
-          <img src={ydent} alt="Ydent" className="ydent-img-header"/>
-          <img src={sunergy} alt="Sunergy" className="synergy-img-header"/>
+            <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
+            <img src={ponto} alt="Ponto Bank" className="ponto-img-header" />
+            <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
+            <img src={provu} alt="Provu" className="provu-img-header" />
+            <img src={ydent} alt="Ydent" className="ydent-img-header" />
+            <img src={sunergy} alt="Sunergy" className="sunergy-img-header" />
           </Fade>
         </div>
         {/* <div className="containerStyle">
@@ -72,6 +106,17 @@ function Header() {
 }
 
 export default Header;
+
+{
+  /* <Fade top distance="1%" duration={1100}>
+  <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
+  <img src={ponto} alt="Ponto Bank" className="ponto-img-header" />
+  <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
+  <img src={provu} alt="Provu" className="provu-img-header" />
+  <img src={ydent} alt="Ydent" className="ydent-img-header" />
+  <img src={sunergy} alt="Sunergy" className="synergy-img-header" />
+</Fade>; */
+}
 
 /* <section className="container">
         <div className="container-div">
