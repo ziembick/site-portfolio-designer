@@ -116,8 +116,12 @@ h1 {
 .ponto-img-header,
 .aqua-img-header,
 .provu-img-header,
-.ydent-img-header {
+.ydent-img-header,
+.synergy-img-header {
   width: 90rem;
+}
+.tucafe-img-header{
+  height: 50.7rem;
 }
 
 .images-header,

@@ -8,6 +8,7 @@ import ponto from "../img/ponto-bank-1.gif";
 import aqua from "../img/aqua1.png";
 import provu from "../img/provu1.png";
 import ydent from "../img/ydent1.gif";
+import sunergy from "../img/sunergy.png";
 import { Fade } from "react-reveal";
 // import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
@@ -58,6 +59,7 @@ function Header() {
           <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
           <img src={provu} alt="Provu" className="provu-img-header"/>
           <img src={ydent} alt="Ydent" className="ydent-img-header"/>
+          <img src={sunergy} alt="Sunergy" className="synergy-img-header"/>
         </div>
         {/* <div className="containerStyle">
           <ImageSlider slides={slides} />
