@@ -6,6 +6,7 @@ import Typical from "react-typical";
 import tucafe from "../img/tuca-cafe-2.gif";
 import ponto from "../img/ponto-bank-1.gif";
 import aqua from "../img/aqua1.png";
+import provu from "../img/provu1.png";
 import { Fade } from "react-reveal";
 // import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
