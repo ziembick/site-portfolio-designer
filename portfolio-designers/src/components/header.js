@@ -54,12 +54,14 @@ function Header() {
       </section>
       <div className="background-container">
         <div className="images-header">
+          <Fade top distance="1%" duration={1100}>
           <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
           <img src={ponto} alt="Ponto Bank" className="ponto-img-header"/>
           <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
           <img src={provu} alt="Provu" className="provu-img-header"/>
           <img src={ydent} alt="Ydent" className="ydent-img-header"/>
           <img src={sunergy} alt="Sunergy" className="synergy-img-header"/>
+          </Fade>
         </div>
         {/* <div className="containerStyle">
           <ImageSlider slides={slides} />
