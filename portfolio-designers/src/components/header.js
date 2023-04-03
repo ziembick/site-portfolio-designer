@@ -3,11 +3,12 @@ import "@fontsource/roboto";
 import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
-import ImageSlider from "./ImageSlider";
+import tucafe from "../img/tucacafe1.png";
+// import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
 
-function Header() {
 
+function Header() {
   const slides = [
     { url: "http://localhost:3000/tucacafe1.png", title: "" },
     { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
@@ -47,9 +48,10 @@ function Header() {
         </div>
       </section>
       <div className="background-container">
-        <div className="containerStyle">
+        <img src={tucafe} alt="Tuca Cafe Logo" />
+        {/* <div className="containerStyle">
           <ImageSlider slides={slides} />
-        </div>
+        </div> */}
       </div>
     </>
   );
