@@ -114,7 +114,8 @@ h1 {
 
 .tucafe-img-header,
 .ponto-img-header,
-.aqua-img-header {
+.aqua-img-header,
+.provu-img-header {
   width: 90rem;
 }
 
@@ -124,7 +125,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 0.1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1px;
+  gap: 9px;
   justify-content: center;
   align-items: center;
   bottom: 4rem;

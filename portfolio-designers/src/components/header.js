@@ -55,6 +55,7 @@ function Header() {
           <img src={tucafe} alt="Tuca Café" className="tucafe-img-header" />
           <img src={ponto} alt="Ponto Bank" className="ponto-img-header"/>
           <img src={aqua} alt="Tuca Café" className="aqua-img-header" />
+          <img src={provu} alt="Provu" className="provu-img-header"/>
         </div>
         {/* <div className="containerStyle">
           <ImageSlider slides={slides} />
