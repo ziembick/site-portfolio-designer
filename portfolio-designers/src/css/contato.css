@@ -1,5 +1,4 @@
 body {
-  
   background-color: #0a0a0a;
 }
 
@@ -102,4 +101,44 @@ input[type="submit"]:hover {
   font-weight: bold;
   position: relative;
   right: 24rem;
+}
+
+@media screen and (max-width: 768px) {
+  .arrow-contact {
+    display: none;
+  }
+
+  .form-div {
+    position: relative;
+    top: 20rem;
+    right: 15rem;
+  }
+
+  input {
+    margin: 0;
+    width: 35rem;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+
+  textarea {
+    width: 35rem;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+
+  ::placeholder {
+    color: var(--azul);
+    font-family: "Roboto";
+    position: relative;
+    right: 7.5rem;
+    padding-left: 1rem;
+  }
 }
