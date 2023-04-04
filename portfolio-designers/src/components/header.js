@@ -6,14 +6,7 @@ import Typical from "react-typical";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
 import BackToTopBtn from "./backToTopButton";
-// import tucafe from "../img/tuca-cafe-2.gif";
-// import ponto from "../img/ponto-bank-1.gif";
-// import aqua from "../img/aqua1.png";
-// import provu from "../img/provu1.png";
-// import ydent from "../img/ydent1.gif";
-// import sunergy from "../img/sunergy.png";
 import { Fade } from "react-reveal";
-// import ImageSlider from "./ImageSlider";
 import "../css/imageslider.css";
 
 function Header() {
@@ -103,12 +96,14 @@ function Header() {
           {images.map((image, index) => (
             <Fade top distance="1%" duration={1100}>
               <Link key={index} to={image.link}>
-                <img
-                  key={index}
-                  src={image.src}
-                  alt={image.alt}
-                  className={image.className}
-                />
+                <div className="image-container">
+                  <img
+                    key={index}
+                    src={image.src}
+                    alt={image.alt}
+                    className={image.className}
+                  />
+                </div>
               </Link>
             </Fade>
           ))}
