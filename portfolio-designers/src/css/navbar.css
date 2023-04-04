@@ -118,8 +118,8 @@ img:hover {
     position: fixed;
     top: 0;
     right: 0;
-    height: 93vh;
-    width: 50vw;
+    height: 100%;
+    width: 100%;
     background: white;
     flex-direction: column;
     transform: translateX(100%);
