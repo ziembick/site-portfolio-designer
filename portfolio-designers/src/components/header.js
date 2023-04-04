@@ -3,6 +3,7 @@ import "@fontsource/roboto";
 import "../css/header.css";
 import Navbar from "./navbar";
 import Typical from "react-typical";
+import { Link } from "react-router-dom";
 // import tucafe from "../img/tuca-cafe-2.gif";
 // import ponto from "../img/ponto-bank-1.gif";
 // import aqua from "../img/aqua1.png";
@@ -24,19 +25,37 @@ function Header() {
           name: "tuca-cafe-2.gif",
           alt: "Tuca Café",
           className: "tucafe-img-header",
+          link: "/tuca-cafe",
         },
         {
           name: "ponto-bank-1.gif",
           alt: "Ponto Bank",
           className: "ponto-img-header",
+          link: "/ponto-bank",
         },
-        { name: "aqua1.png", alt: "Aqua Lounge", className: "aqua-img-header" },
-        { name: "provu1.png", alt: "Provu", className: "provu-img-header" },
-        { name: "ydent1.gif", alt: "Ydent", className: "ydent-img-header" },
+        {
+          name: "aqua1.png",
+          alt: "Aqua Lounge",
+          className: "aqua-img-header",
+          link: "/aqua",
+        },
+        {
+          name: "provu1.png",
+          alt: "Provu",
+          className: "provu-img-header",
+          link: "/provu",
+        },
+        {
+          name: "ydent1.gif",
+          alt: "Ydent",
+          className: "ydent-img-header",
+          link: "/ydent",
+        },
         {
           name: "sunergy.png",
           alt: "Sunergy",
           className: "sunergy-img-header",
+          link: "/sunergy",
         },
       ];
       for (const file of files) {
@@ -88,7 +107,6 @@ function Header() {
       </section>
       <div className="background-container">
         <div className="images-header">
-
           {images.map((image, index) => (
             <Fade top distance="1%" duration={1100}>
               <img
@@ -97,7 +115,7 @@ function Header() {
                 alt={image.alt}
                 className={image.className}
               />
-           </Fade>
+            </Fade>
           ))}
         </div>
         {/* <div className="containerStyle">
@@ -109,7 +127,6 @@ function Header() {
 }
 
 export default Header;
-
 
 /* <section className="container">
         <div className="container-div">
