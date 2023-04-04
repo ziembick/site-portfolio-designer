@@ -99,6 +99,10 @@ li {
   height: 140px;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 /* img {
   transition: background-color 0.5s ease;
 }
