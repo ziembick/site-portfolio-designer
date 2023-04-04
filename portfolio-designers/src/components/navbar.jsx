@@ -12,7 +12,11 @@ function Navbar() {
   const navToggle = () => {
     if (active === "nav__menu") {
       setActive("nav__menu nav__active");
-    } else setActive("nav__menu");
+      document.body.classList.add("no-scroll");
+    } else {
+      setActive("nav__menu");
+      document.body.classList.remove("no-scroll");
+    }
 
     // Icon Toggler
     if (icon === "nav__toggler") {
@@ -36,12 +40,12 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/sobre" className="nav__link">
+                  <Link to="/sobre" className="nav__link" id="sobre">
                     Sobre
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/contato" className="nav__link">
+                  <Link to="/contato" className="nav__link" id="contato">
                     Contato
                   </Link>
                 </li>

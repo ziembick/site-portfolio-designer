@@ -139,11 +139,11 @@ img:hover {
   .nav__link {
     background-color: transparent;
     position: relative;
-    left: 10rem;
+    left: 5rem;
     color: var(--azul);
     cursor: pointer;
     font-family: "Roboto";
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.5;
     text-decoration: none;
