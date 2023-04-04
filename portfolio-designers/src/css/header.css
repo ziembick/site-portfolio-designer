@@ -133,8 +133,7 @@ h1 {
   height: 50.7rem;
 }
 
-.images-header,
-.images-header2 {
+.images-header {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 0.1fr);
@@ -182,6 +181,18 @@ h1 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .images-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+
+
+
   /* .background-container {
     background-color: white;
     height: 800px;
