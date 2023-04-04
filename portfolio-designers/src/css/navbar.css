@@ -99,6 +99,10 @@ li {
   height: 140px;
 }
 
+#home {
+  display: none;
+}
+
 .no-scroll {
   overflow: hidden;
 }
@@ -155,6 +159,11 @@ img:hover {
     outline: 0;
     border: 0;
   }
+
+  #home {
+    display: flex;
+  }
+
 }
 /* Active Class */
 .nav__active {

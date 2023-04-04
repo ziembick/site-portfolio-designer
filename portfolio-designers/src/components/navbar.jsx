@@ -40,13 +40,18 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/sobre" className="nav__link" id="sobre">
+                  <Link to="/sobre" className="nav__link">
                     Sobre
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/contato" className="nav__link" id="contato">
+                  <Link to="/contato" className="nav__link">
                     Contato
+                  </Link>
+                </li>
+                <li className="nav__item">
+                  <Link to="/" className="nav__link" id="home">
+                    Home
                   </Link>
                 </li>
               </ul>
