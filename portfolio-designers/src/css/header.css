@@ -119,6 +119,7 @@ h1 {
 .ydent-img-header,
 .sunergy-img-header {
   width: 90rem;
+  border-radius: 12px;
 }
 .tucafe-img-header{
   height: 50.7rem;
