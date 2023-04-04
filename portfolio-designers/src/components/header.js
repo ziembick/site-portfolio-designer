@@ -109,12 +109,14 @@ function Header() {
         <div className="images-header">
           {images.map((image, index) => (
             <Fade top distance="1%" duration={1100}>
-              <img
-                key={index}
-                src={image.src}
-                alt={image.alt}
-                className={image.className}
-              />
+              <Link key={index} to={image.link}>
+                <img
+                  key={index}
+                  src={image.src}
+                  alt={image.alt}
+                  className={image.className}
+                />
+              </Link>
             </Fade>
           ))}
         </div>
