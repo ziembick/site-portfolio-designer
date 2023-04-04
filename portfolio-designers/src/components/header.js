@@ -67,15 +67,6 @@ function Header() {
     loadImages();
   }, []);
 
-  // const slides = [
-  //   { url: "http://localhost:3000/tucacafe1.png", title: "" },
-  //   { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
-  //   { url: "http://localhost:3000/provu.png", title: "" },
-  //   { url: "http://localhost:3000/aqua-lounge.png", title: "" },
-  //   { url: "http://localhost:3000/ydent.png", title: "" },
-  //   { url: "http://localhost:3000/sunergy.png", title: "" },
-  // ];
-
   return (
     <>
       <section className="section__container">
@@ -120,15 +111,21 @@ function Header() {
             </Fade>
           ))}
         </div>
-        {/* <div className="containerStyle">
-          <ImageSlider slides={slides} />
-        </div> */}
       </div>
     </>
   );
 }
 
 export default Header;
+
+// const slides = [
+//   { url: "http://localhost:3000/tucacafe1.png", title: "" },
+//   { url: "http://localhost:3000/ponto-bank-1.png", title: "" },
+//   { url: "http://localhost:3000/provu.png", title: "" },
+//   { url: "http://localhost:3000/aqua-lounge.png", title: "" },
+//   { url: "http://localhost:3000/ydent.png", title: "" },
+//   { url: "http://localhost:3000/sunergy.png", title: "" },
+// ];
 
 /* <section className="container">
         <div className="container-div">
@@ -150,3 +147,6 @@ export default Header;
           <p className="ponto-bank-text">Ponto Bank</p>
         </div>
       </section> */
+/* <div className="containerStyle">
+          <ImageSlider slides={slides} />
+        </div> */
