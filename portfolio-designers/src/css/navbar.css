@@ -113,6 +113,7 @@ img:hover {
     position: relative;
     right: 0;
     bottom: 22rem;
+    z-index: 100;
   }
   .nav__menu {
     position: fixed;
@@ -124,6 +125,7 @@ img:hover {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    z-index: 10;
   }
 
   .nav__logo2 {
