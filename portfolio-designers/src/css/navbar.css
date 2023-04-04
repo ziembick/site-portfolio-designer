@@ -91,13 +91,15 @@ li {
   transition: 0.3s ease-in;
 }
 
-.nav__logo {
+
+.nav__logo2 {
   position: relative;
-  left: 4.5rem;
+  left: 5rem;
   bottom: 5rem;
   width: 90px;
   height: 140px;
 }
+
 
 /* img {
   transition: background-color 0.5s ease;

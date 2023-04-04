@@ -27,7 +27,7 @@ function Navbar() {
           <div>
             <nav className="nav">
               <Link to="/" className="nav__brand">
-                <img src={Logo} alt="Silvio Logo" className="nav__logo" />
+                <img src={Logo} alt="Silvio Logo" className="nav__logo2" />
               </Link>
               <ul className={active}>
                 <li className="nav__item">

@@ -5,6 +5,7 @@ import Navbar from "./navbar";
 import Typical from "react-typical";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
+import BackToTopBtn from "./backToTopButton";
 // import tucafe from "../img/tuca-cafe-2.gif";
 // import ponto from "../img/ponto-bank-1.gif";
 // import aqua from "../img/aqua1.png";
@@ -113,6 +114,7 @@ function Header() {
           ))}
         </div>
       </div>
+      <BackToTopBtn />
       <Footer />
     </>
   );
