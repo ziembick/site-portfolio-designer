@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import "../css/contato.css";
 import Footer from "./footer";
-import logoFooter from  "../img/smile2.svg";
+// import logoFooter from  "../img/smile2.svg";
 import { Link } from "react-router-dom";
 
 function Contato() {
@@ -61,7 +61,7 @@ function Contato() {
             <input type="submit" value="Enviar" />
           </form>
         </div>
-      <img src={logoFooter} alt="Smile" className="smile"/>
+      {/* <img src={logoFooter} alt="Smile" className="smile"/> */}
       </section>
       <Footer />
     </>
