@@ -41,17 +41,20 @@
 
   .about {
     position: relative;
-    right: 20rem;
-    top: 100rem;
+    right: 23rem;
+    top: 43rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 
   .title__container {
     position: absolute;
-    margin-left: 25rem;
+    
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    text-align: justify;
   }
 
   .title {
@@ -62,6 +65,7 @@
   }
 
   .title__description {
+    display: inline;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     color: var(--branco);
