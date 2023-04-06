@@ -11,7 +11,7 @@
   from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
@@ -156,49 +156,6 @@ button:hover .button-text {
   color: #fff;
 }
 
-/* .lang-btn-provu {
-  position: relative;
-  left: 39%;
-  bottom: 35rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  background-color: var(--azul);
-  border-radius: 12px;
-  font-family: "Roboto";
-  font-size: 16px;
-  color: var(--branco);
-  cursor: pointer;
-  padding: 1rem;
-  transition: 1s;
-  text-decoration: none;
-}
-
-.lang-btn-provu:hover {
-  cursor: pointer;
-  background: var(--clr );
-} */
-
-/* 
-.lang-btn-ponto {
-  position: relative;
-  left: 39%;
-  bottom: 40rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  background-color: var(--azul);
-  border-radius: 12px;
-  font-family: "Roboto";
-  font-size: 16px;
-  color: var(--branco);
-  cursor: pointer;
-  padding: 1rem;
-}
-
-.lang-btn-ponto:hover {
-  cursor: pointer;
-  background: var(--azul-hover);
-} */
-
 .arrow-port {
   color: var(--branco);
   text-decoration: none;
@@ -207,4 +164,20 @@ button:hover .button-text {
   position: relative;
   margin-left: 24.5rem;
   bottom: 25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .arrow-port {
+    display: none;
+  }
+
+  .aqua__container {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
