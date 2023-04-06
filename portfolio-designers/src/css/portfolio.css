@@ -94,5 +94,11 @@
 
 
 @media screen and (max-width:768px) {
-  
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px;
+    margin: 20px;
+  }
 }
