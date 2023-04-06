@@ -189,4 +189,33 @@ button:hover .button-text {
     align-items: center;
     flex-direction: column;
   }
+
+
+  /* .aqua-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  } */
+  
+  .aqua-p {
+    padding: 0;
+    text-align-last: initial;
+    text-align: justify;
+    word-spacing: 0;
+    line-height: 1.7;
+    font-family: "Roboto";
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+
+
+
 }
