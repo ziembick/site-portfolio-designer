@@ -170,36 +170,20 @@ button:hover .button-text {
   .arrow-port {
     display: none;
   }
-  
+
   .aqua-img-1 {
-    width: 80%;
     position: relative;
-    left: 15%;
+    left: 2rem;
     bottom: 0;
-    opacity: 0;
-    animation: fadeIn 2s forwards;
+    width: 90%;
   }
 
   .aqua__container {
     position: relative;
     left: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 
-
-  /* .aqua-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--branco);
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-  } */
-  
   .aqua-p {
     padding: 0;
     text-align-last: initial;
@@ -215,7 +199,4 @@ button:hover .button-text {
     opacity: 0;
     animation: fadeIn 1s forwards;
   }
-
-
-
 }
