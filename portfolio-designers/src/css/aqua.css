@@ -170,6 +170,15 @@ button:hover .button-text {
   .arrow-port {
     display: none;
   }
+  
+  .aqua-img-1 {
+    width: 80%;
+    position: relative;
+    left: 15%;
+    bottom: 0;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
 
   .aqua__container {
     position: relative;
