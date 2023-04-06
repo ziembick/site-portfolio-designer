@@ -58,8 +58,6 @@
   overflow: hidden;
 }
 
-
-
 .default-image {
   position: absolute;
   top: 0;
@@ -92,13 +90,23 @@
   transform: scale(1.2);
 }
 
+@media screen and (max-width: 768px) {
+  .arrow-portfolio {
+    display: none;
+  }
 
-@media screen and (max-width:768px) {
   .portfolio {
-    display: grid;
-    grid-template-columns: repeat(2, 0.1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1px;
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 30rem;
+    top: 15rem;
+  }
+
+  .image-switcher {
+    width: 35rem;
+    height: 20rem;
   }
 }
