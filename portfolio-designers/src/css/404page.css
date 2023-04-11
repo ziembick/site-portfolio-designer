@@ -1,6 +1,6 @@
 .page {
   color: var(--azul);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 4rem;
   margin-top: 1em;
 }
@@ -11,25 +11,38 @@
 }
 
 .smile-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1em;
 }
 
-
 .page-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .back-btn {
-    font-family: 'Roboto';
-    margin-top: 1rem;
+  font-family: "Roboto";
+  margin-top: 1rem;
+  color: var(--azul);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
     color: var(--azul);
-    text-decoration: none;
+    font-family: "Roboto";
     font-size: 2rem;
+    margin-top: 1em;
+  }
+
+  .smile-404 {
+    width: 25rem;
+    height: 25rem;
+  }
 }
