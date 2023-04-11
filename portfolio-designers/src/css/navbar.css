@@ -178,17 +178,19 @@ img:hover {
 
   .section__container-ig {
     position: relative;
-    right: 110rem;
+    right: 105.5rem;
   }
 
   .section__container-behance {
     position: relative;
-    right: 110rem;
+    right: 104rem;
+    bottom: 3.4rem;
   }
 
   .section__container-dribble {
     position: relative;
-    right: 110rem;
+    right: 102rem;
+    bottom: 6.8rem;
   }
 
 }
