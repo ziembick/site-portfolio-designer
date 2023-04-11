@@ -142,3 +142,11 @@ input[type="submit"]:hover {
     padding-left: 1rem;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .form-div {
+    position: relative;
+    top: 20rem;
+    right: 11rem;
+  }
+}

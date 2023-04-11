@@ -78,3 +78,44 @@
     margin-right: 20rem;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .about {
+    position: relative;
+    right: 12rem;
+    top: 40rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .title__container {
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--azul);
+  }
+
+  .title__description {
+    display: inline;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: var(--branco);
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-right: 20rem;
+  }
+}
