@@ -167,14 +167,30 @@ img:hover {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
   .nav__logo2 {
     position: relative;
-    left: 12rem;
+    left: 30rem;
     bottom: 8.2rem;
     width: 90px;
     height: 140px;
   }
+
+  .section__container-ig {
+    position: relative;
+    right: 110rem;
+  }
+
+  .section__container-behance {
+    position: relative;
+    right: 110rem;
+  }
+
+  .section__container-dribble {
+    position: relative;
+    right: 110rem;
+  }
+
 }
 
 
