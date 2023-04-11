@@ -110,3 +110,20 @@
     height: 20rem;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 30rem;
+    top: 15rem;
+  }
+
+  .image-switcher {
+    width: 55rem;
+    height: 40rem;
+  }
+}
