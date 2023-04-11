@@ -6,7 +6,6 @@ function Footer() {
   return (
     <>
       <img src={logoFooter} alt="Silvio Lima" className="nav__logo-footer" />
-      {/* <p className="testesteste">Silvio Lima</p> */}
     </>
   );
 }
