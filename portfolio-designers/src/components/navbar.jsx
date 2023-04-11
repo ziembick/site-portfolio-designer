@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Logo from "../img/Logo.svg";
 import { Link, Route, Routes } from "react-router-dom";
 import "../css/navbar.css";
@@ -9,19 +9,31 @@ import linkedin from "../img/linkedin.png";
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
+
+  const aboutLinkRef = useRef(null);
+
   const navToggle = () => {
     if (active === "nav__menu") {
       setActive("nav__menu nav__active");
-      document.body.classList.add("no-scroll");
+      // document.body.classList.add("no-scroll");
     } else {
       setActive("nav__menu");
-      document.body.classList.remove("no-scroll");
+      // document.body.classList.remove("no-scroll");
     }
 
     // Icon Toggler
     if (icon === "nav__toggler") {
       setIcon("nav__toggler toggle");
-    } else setIcon("nav__toggler");
+      document.body.classList.add("no-scroll");
+    } else {
+      setIcon("nav__toggler");
+      document.body.classList.remove("no-scroll");
+    }
+
+    const handleAboutClick = () => {
+      document.body.classList.remove("no-scroll");
+    };
+    aboutLinkRef.current.addEventListener("click", handleAboutClick);
   };
   return (
     <Routes>
@@ -35,22 +47,33 @@ function Navbar() {
               </Link>
               <ul className={active}>
                 <li className="nav__item">
-                  <Link to="/portfolio" className="nav__link">
+                  <Link
+                    to="/portfolio"
+                    className="nav__link"
+                    ref={aboutLinkRef}
+                    onClick={useRef}
+                  >
                     Portfolio
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/sobre" className="nav__link">
+                  <Link to="/sobre" className="nav__link" ref={aboutLinkRef} onClick={useRef}>
                     Sobre
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/contato" className="nav__link">
+                  <Link to="/contato" className="nav__link" ref={aboutLinkRef} onClick={useRef}>
                     Contato
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/" className="nav__link" id="home">
+                  <Link
+                    to="/"
+                    className="nav__link"
+                    id="home"
+                    ref={aboutLinkRef}
+                    onClick={useRef}
+                  >
                     Home
                   </Link>
                 </li>

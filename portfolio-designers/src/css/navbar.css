@@ -115,6 +115,7 @@ img:hover {
 } */
 
 @media screen and (max-width: 768px) {
+
   .nav__toggler {
     display: block;
     cursor: pointer;
