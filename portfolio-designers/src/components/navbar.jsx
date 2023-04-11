@@ -28,7 +28,7 @@ function Navbar() {
       <Route
         path="/"
         element={
-          <div>
+          <div className="main-div">
             <nav className="nav">
               <Link to="/" className="nav__brand">
                 <img src={Logo} alt="Silvio Logo" className="nav__logo2" />
