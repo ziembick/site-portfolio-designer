@@ -216,8 +216,8 @@ h1 {
   .provu-img-header,
   .ydent-img-header,
   .sunergy-img-header {
-    width: 35rem;
-    height: 25rem;
+    width: 60rem;
+    height: 40rem;
     border-radius: 12px;
     transition: transform 0.3s;
     margin: 2px;
@@ -226,5 +226,10 @@ h1 {
   .image-container {
     overflow: hidden;
     border-radius: 12px;
+  }
+
+  .background-container {
+    background-color: rgb(179, 174, 174);
+    height: 250rem;
   }
 }
