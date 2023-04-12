@@ -257,4 +257,11 @@ h1 {
     background-color: rgb(179, 174, 174);
     height: 130rem;
   }
+
+  .section__container-text-wrapper {
+    position: relative;
+    bottom: 19rem;
+    margin-left: 29rem;
+    font-family: "Roboto", sans-serif;
+  }
 }
