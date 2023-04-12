@@ -150,3 +150,11 @@ input[type="submit"]:hover {
     right: 11rem;
   }
 }
+
+/* @media screen and (min-width: 1280px) {
+  .form-div {
+    position: relative;
+    top: 20rem;
+    right: 4rem;
+  }
+} */
