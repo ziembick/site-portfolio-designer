@@ -115,7 +115,6 @@ img:hover {
 } */
 
 @media screen and (max-width: 768px) {
-
   .nav__toggler {
     display: block;
     cursor: pointer;
@@ -164,13 +163,9 @@ img:hover {
   #home {
     display: flex;
   }
-
 }
 
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1)  {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .nav__logo2 {
     position: relative;
     left: 30rem;
@@ -195,9 +190,34 @@ img:hover {
     right: 102rem;
     bottom: 6.8rem;
   }
-
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+  /* .nav__logo2 {
+    position: relative;
+    left: 30rem;
+    bottom: 8.2rem;
+    width: 90px;
+    height: 140px;
+  } */
+
+  .section__container-ig {
+    position: relative;
+    right: 105.5rem;
+  }
+
+  .section__container-behance {
+    position: relative;
+    right: 104rem;
+    bottom: 0;
+  }
+
+  .section__container-dribble {
+    position: relative;
+    right: 102rem;
+    bottom: 0;
+  }
+}
 
 /* Active Class */
 .nav__active {
