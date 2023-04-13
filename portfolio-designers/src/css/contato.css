@@ -149,6 +149,33 @@ input[type="submit"]:hover {
     top: 20rem;
     right: 11rem;
   }
+  input {
+    margin: 0;
+    width: 50rem;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+
+  textarea {
+    width: 50rem;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+
+  ::placeholder {
+    color: var(--azul);
+    font-family: "Roboto";
+    position: relative;
+    right: 7.5rem;
+    padding-left: 1rem;
+  }
 }
 
 /* @media screen and (min-width: 1280px) {

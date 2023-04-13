@@ -193,29 +193,35 @@ img:hover {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1280px) {
-  /* .nav__logo2 {
-    position: relative;
-    left: 30rem;
-    bottom: 8.2rem;
-    width: 90px;
-    height: 140px;
-  } */
-
   .section__container-ig {
     position: relative;
-    right: 105.5rem;
+    right: 57.2rem;
+    top: 1px;
   }
 
   .section__container-behance {
     position: relative;
-    right: 104rem;
+    right: 57.5rem;
     bottom: 0;
   }
 
   .section__container-dribble {
     position: relative;
-    right: 102rem;
+    right: 58rem;
     bottom: 0;
+  }
+
+  .nav__menu {
+    position: relative;
+    right: 9rem;
+  }
+
+  .nav__logo2 {
+    position: relative;
+    left: -4.5rem;
+    bottom: 5rem;
+    width: 90px;
+    height: 140px;
   }
 }
 
