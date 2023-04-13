@@ -206,3 +206,10 @@ button:hover .button-text {
   }
 
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+  .arrow-port {
+    position: relative;
+    right: 9rem;
+  }
+}
