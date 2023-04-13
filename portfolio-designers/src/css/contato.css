@@ -173,8 +173,7 @@ input[type="submit"]:hover {
     color: var(--azul);
     font-family: "Roboto";
     position: relative;
-    right: 7.5rem;
-    padding-left: 1rem;
+    right: 0;
   }
 }
 
