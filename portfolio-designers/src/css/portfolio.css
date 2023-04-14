@@ -98,7 +98,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    right: 30rem;
+    right: 24.4rem;
     top: 15rem;
   }
 
@@ -115,13 +115,18 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    right: 30rem;
+    right: 25rem;
     top: 15rem;
   }
 
   .image-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 55rem;
     height: 40rem;
+    /* position: relative;
+    left: 29rem; */
   }
 }
 
