@@ -107,6 +107,19 @@ li {
   overflow: hidden;
 }
 
+.section__container-ig_logo:hover {
+  transform: scale(1.2);
+  transition: 0.9 ease-in;
+}
+.section__container-ig_behance_logo:hover {
+  transform: scale(1.2);
+  transition: 0.9 ease-in;
+}
+.section__container-ig_dribble_logo:hover {
+  transform: scale(1.2);
+  transition: 0.9 ease-in;
+}
+
 /* img {
   transition: background-color 0.5s ease;
 }

@@ -45,6 +45,7 @@ function Navbar() {
               <Link to="/" className="nav__brand">
                 <img src={Logo} alt="Silvio Logo" className="nav__logo2" />
               </Link>
+
               <ul className={active}>
                 <li className="nav__item">
                   <Link
@@ -57,12 +58,22 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/sobre" className="nav__link" ref={aboutLinkRef} onClick={useRef}>
+                  <Link
+                    to="/sobre"
+                    className="nav__link"
+                    ref={aboutLinkRef}
+                    onClick={useRef}
+                  >
                     Sobre
                   </Link>
                 </li>
                 <li className="nav__item">
-                  <Link to="/contato" className="nav__link" ref={aboutLinkRef} onClick={useRef}>
+                  <Link
+                    to="/contato"
+                    className="nav__link"
+                    ref={aboutLinkRef}
+                    onClick={useRef}
+                  >
                     Contato
                   </Link>
                 </li>
