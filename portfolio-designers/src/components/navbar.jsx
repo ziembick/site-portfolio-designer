@@ -116,7 +116,6 @@ function Navbar() {
                 >
                   <img
                     src={linkedin}
-                    fle
                     alt="Dribble Logo"
                     className="section__container-ig_dribble_logo"
                   />
