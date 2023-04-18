@@ -11,14 +11,17 @@ footer {
 
 .nav__logo-footer {
   position: relative;
-  padding-top: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   left: 9rem;
   bottom: 0;
   width: 10rem;
   height: 100px;
 }
 
-
+.footer-container {
+  display: none;
+}
 
 .section__container-ig_logo:hover {
   transform: scale(1.2);
@@ -39,5 +42,20 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
+    position: relative;
+    left: 15rem;
+  }
+
+  .section__container-ig_logo {
+    position: relative;
+    left: 10rem;
+  }
+  .section__container-ig_behance_logo {
+    position: relative;
+    left: 10rem;
+  }
+  .section__container-ig_dribble_logo {
+    position: relative;
+    left: 10rem;
   }
 }
