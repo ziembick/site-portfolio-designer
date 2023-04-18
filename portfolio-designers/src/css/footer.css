@@ -54,19 +54,19 @@ footer {
     left: 2rem;
   }
 
-  .section__container-ig_logo {
+  .section__container-ig_logo__footer {
     position: relative;
     left: 10rem;
     bottom: 5rem;
     margin-right: 1rem;
   }
-  .section__container-ig_behance_logo {
+  .section__container-ig_behance_logo__footer {
     position: relative;
     left: 10rem;
     bottom: 5.12rem;
     margin-right: 1rem
   }
-  .section__container-ig_dribble_logo {
+  .section__container-ig_dribble_logo__footer {
     position: relative;
     left: 10rem;
     bottom: 5.12rem;

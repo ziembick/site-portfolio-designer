@@ -17,7 +17,7 @@ function Footer() {
           <img
             src={igLogo}
             alt="Instagram Logo"
-            className="section__container-ig_logo"
+            className="section__container-ig_logo__footer"
           />
         </a>
         <a
@@ -27,7 +27,7 @@ function Footer() {
           <img
             src={behance}
             alt="Behance Logo"
-            className="section__container-ig_behance_logo"
+            className="section__container-ig_behance_logo__footer"
           />
         </a>
         <a
@@ -37,7 +37,7 @@ function Footer() {
           <img
             src={linkedin}
             alt="Dribble Logo"
-            className="section__container-ig_dribble_logo"
+            className="section__container-ig_dribble_logo__footer"
           />
         </a>
       </div>
