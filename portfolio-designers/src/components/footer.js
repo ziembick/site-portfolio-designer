@@ -9,7 +9,7 @@ function Footer() {
   return (
     <>
       <img src={logoFooter} alt="Silvio Lima" className="nav__logo-footer" />
-      <div>
+      <div className="footer-container">
         <a
           href="http://www.instagram.com/slviol"
           className="section__container-ig"
