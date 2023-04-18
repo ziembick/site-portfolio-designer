@@ -37,25 +37,38 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .nav__logo-footer {
+    position: relative;
+    left: 0;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
   .footer-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     position: relative;
-    left: 15rem;
+    bottom: 0;
+    left: 2rem;
   }
 
   .section__container-ig_logo {
     position: relative;
     left: 10rem;
+    bottom: 5rem;
+    margin-right: 1rem;
   }
   .section__container-ig_behance_logo {
     position: relative;
     left: 10rem;
+    bottom: 5.12rem;
+    margin-right: 1rem
   }
   .section__container-ig_dribble_logo {
     position: relative;
     left: 10rem;
+    bottom: 5.12rem;
   }
 }
